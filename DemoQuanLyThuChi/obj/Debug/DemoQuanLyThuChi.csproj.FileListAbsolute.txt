@@ -14,6 +14,10 @@ D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.QuanL
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.QuanLyThuChi.resources
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.HomeWindow.resources
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.MainWindow.resources
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.exe.config
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.exe
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.pdb
@@ -30,3 +34,8 @@ E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuC
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.csproj.CoreCompileInputs.cache
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.exe
 E:\DA_Nhom7-master (1)\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.pdb
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4

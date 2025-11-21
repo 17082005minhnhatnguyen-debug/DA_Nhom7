@@ -31,7 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangKy));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.txtPassword = new System.Windows.Forms.TextBox();
+=======
+<<<<<<< HEAD
+            this.txtPassword = new System.Windows.Forms.TextBox();
+=======
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -39,7 +47,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.txtUsername = new System.Windows.Forms.TextBox();
+=======
+<<<<<<< HEAD
+            this.txtUsername = new System.Windows.Forms.TextBox();
+=======
+            this.txtTen = new System.Windows.Forms.TextBox();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -72,6 +88,10 @@
             this.textBox1.Text = "TẠO TÀI KHOẢN CỦA BẠN";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,6 +99,18 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(378, 30);
             this.txtPassword.TabIndex = 7;
+<<<<<<< HEAD
+=======
+=======
+            // txtMatKhau
+            // 
+            this.txtMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatKhau.Location = new System.Drawing.Point(552, 352);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Size = new System.Drawing.Size(378, 30);
+            this.txtMatKhau.TabIndex = 7;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // pictureBox3
             // 
@@ -103,10 +135,23 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.txtEmail.Location = new System.Drawing.Point(552, 148);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(378, 36);
+<<<<<<< HEAD
+=======
+=======
+            this.txtEmail.Location = new System.Drawing.Point(552, 158);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(378, 26);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.txtEmail.TabIndex = 11;
             // 
             // btnTạoTK
@@ -114,7 +159,15 @@
             this.btnTạoTK.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnTạoTK.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTạoTK.BackgroundImage")));
             this.btnTạoTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnTạoTK.Location = new System.Drawing.Point(405, 421);
+=======
+<<<<<<< HEAD
+            this.btnTạoTK.Location = new System.Drawing.Point(405, 421);
+=======
+            this.btnTạoTK.Location = new System.Drawing.Point(390, 462);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.btnTạoTK.Name = "btnTạoTK";
             this.btnTạoTK.Size = new System.Drawing.Size(540, 41);
             this.btnTạoTK.TabIndex = 142;
@@ -125,11 +178,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(449, 487);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 25);
+<<<<<<< HEAD
+=======
+=======
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(386, 528);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(124, 20);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.label1.TabIndex = 143;
             this.label1.Text = "Đã có tài khoản ";
             // 
@@ -138,6 +204,10 @@
             this.btnDangNhap.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnDangNhap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDangNhap.BackgroundImage")));
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.btnDangNhap.Location = new System.Drawing.Point(819, 482);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(126, 34);
@@ -145,6 +215,17 @@
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
+<<<<<<< HEAD
+=======
+=======
+            this.btnDangNhap.Location = new System.Drawing.Point(810, 528);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(124, 24);
+            this.btnDangNhap.TabIndex = 144;
+            this.btnDangNhap.Text = "Đăng Nhập";
+            this.btnDangNhap.UseVisualStyleBackColor = false;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // pictureBox4
             // 
@@ -156,6 +237,10 @@
             this.pictureBox4.TabIndex = 145;
             this.pictureBox4.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -163,6 +248,18 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(378, 30);
             this.txtUsername.TabIndex = 146;
+<<<<<<< HEAD
+=======
+=======
+            // txtTen
+            // 
+            this.txtTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTen.Location = new System.Drawing.Point(552, 253);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(378, 30);
+            this.txtTen.TabIndex = 146;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // label2
             // 
@@ -212,7 +309,15 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
+<<<<<<< HEAD
             this.Controls.Add(this.txtUsername);
+=======
+<<<<<<< HEAD
+            this.Controls.Add(this.txtUsername);
+=======
+            this.Controls.Add(this.txtTen);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.label1);
@@ -220,7 +325,15 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
+<<<<<<< HEAD
             this.Controls.Add(this.txtPassword);
+=======
+<<<<<<< HEAD
+            this.Controls.Add(this.txtPassword);
+=======
+            this.Controls.Add(this.txtMatKhau);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "DangKy";
@@ -238,7 +351,15 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtPassword;
+=======
+<<<<<<< HEAD
+        private System.Windows.Forms.TextBox txtPassword;
+=======
+        private System.Windows.Forms.TextBox txtMatKhau;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtEmail;
@@ -246,7 +367,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.PictureBox pictureBox4;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtUsername;
+=======
+<<<<<<< HEAD
+        private System.Windows.Forms.TextBox txtUsername;
+=======
+        private System.Windows.Forms.TextBox txtTen;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

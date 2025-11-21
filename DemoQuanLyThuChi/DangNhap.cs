@@ -7,7 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.IO;
+=======
+<<<<<<< HEAD
+using System.IO;
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 
 namespace DemoQuanLyThuChi
 {
@@ -23,12 +30,24 @@ namespace DemoQuanLyThuChi
         }
         bool KiemTraTaiKhoan(string username, string password)
         {
+<<<<<<< HEAD
             // Kiểm tra tài khoản mẫu
+=======
+<<<<<<< HEAD
+            // Kiểm tra tài khoản mẫu
+=======
+            // Ví dụ hardcode 1 vài tài khoản mẫu
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             if ((username == "user1" && password == "12345") ||
                 (username == "admin" && password == "admin123"))
             {
                 return true;
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 
             // Kiểm tra tài khoản từ file
             if (File.Exists("users.txt"))
@@ -44,6 +63,11 @@ namespace DemoQuanLyThuChi
                 }
             }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             return false;
         }
         private void btnTạoTK_Click(object sender, EventArgs e)

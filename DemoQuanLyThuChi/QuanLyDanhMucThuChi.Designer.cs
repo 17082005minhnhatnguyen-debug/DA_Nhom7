@@ -35,12 +35,27 @@
             this.MaDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenDM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Loai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.cboLoai = new System.Windows.Forms.ComboBox();
             this.txt = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.txtTenDanhMuc = new System.Windows.Forms.TextBox();
             this.txtMaDanhMuc = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+=======
+=======
+            this.cmbLoaiDM = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtTenDM = new System.Windows.Forms.TextBox();
+            this.txtMaDM = new System.Windows.Forms.TextBox();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.btnThemDM = new System.Windows.Forms.Button();
             this.btnXoaDM = new System.Windows.Forms.Button();
             this.btnSuaDM = new System.Windows.Forms.Button();
@@ -113,6 +128,10 @@
             this.Loai.Name = "Loai";
             this.Loai.Width = 150;
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // cboLoai
             // 
             this.cboLoai.FormattingEnabled = true;
@@ -132,6 +151,30 @@
             this.txt.TabIndex = 18;
             this.txt.Text = "Mã Danh Mục";
             this.txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+<<<<<<< HEAD
+=======
+=======
+            // cmbLoaiDM
+            // 
+            this.cmbLoaiDM.FormattingEnabled = true;
+            this.cmbLoaiDM.Items.AddRange(new object[] {
+            "Thu",
+            "Chi"});
+            this.cmbLoaiDM.Location = new System.Drawing.Point(612, 220);
+            this.cmbLoaiDM.Name = "cmbLoaiDM";
+            this.cmbLoaiDM.Size = new System.Drawing.Size(276, 28);
+            this.cmbLoaiDM.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(386, 97);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(147, 26);
+            this.textBox2.TabIndex = 18;
+            this.textBox2.Text = "Mã Danh Mục";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // textBox3
             // 
@@ -151,6 +194,10 @@
             this.textBox4.Text = "Loại";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // txtTenDanhMuc
             // 
             this.txtTenDanhMuc.Location = new System.Drawing.Point(612, 155);
@@ -167,6 +214,27 @@
             this.txtMaDanhMuc.Size = new System.Drawing.Size(276, 26);
             this.txtMaDanhMuc.TabIndex = 22;
             this.txtMaDanhMuc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+<<<<<<< HEAD
+=======
+=======
+            // txtTenDM
+            // 
+            this.txtTenDM.Location = new System.Drawing.Point(612, 155);
+            this.txtTenDM.Name = "txtTenDM";
+            this.txtTenDM.Size = new System.Drawing.Size(276, 26);
+            this.txtTenDM.TabIndex = 21;
+            this.txtTenDM.Text = "\r\n";
+            this.txtTenDM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtMaDM
+            // 
+            this.txtMaDM.Location = new System.Drawing.Point(612, 97);
+            this.txtMaDM.Name = "txtMaDM";
+            this.txtMaDM.Size = new System.Drawing.Size(276, 26);
+            this.txtMaDM.TabIndex = 22;
+            this.txtMaDM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnThemDM
             // 
@@ -177,7 +245,14 @@
             this.btnThemDM.TabIndex = 30;
             this.btnThemDM.Text = "Thêm";
             this.btnThemDM.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnThemDM.Click += new System.EventHandler(this.btnThemDM_Click);
+=======
+<<<<<<< HEAD
+            this.btnThemDM.Click += new System.EventHandler(this.btnThemDM_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnXoaDM
             // 
@@ -188,7 +263,14 @@
             this.btnXoaDM.TabIndex = 30;
             this.btnXoaDM.Text = "Xóa";
             this.btnXoaDM.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnXoaDM.Click += new System.EventHandler(this.btnXoaDM_Click);
+=======
+<<<<<<< HEAD
+            this.btnXoaDM.Click += new System.EventHandler(this.btnXoaDM_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnSuaDM
             // 
@@ -199,7 +281,14 @@
             this.btnSuaDM.TabIndex = 30;
             this.btnSuaDM.Text = "Sửa";
             this.btnSuaDM.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnSuaDM.Click += new System.EventHandler(this.btnSuaDM_Click);
+=======
+<<<<<<< HEAD
+            this.btnSuaDM.Click += new System.EventHandler(this.btnSuaDM_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnDocFile
             // 
@@ -210,7 +299,14 @@
             this.btnDocFile.TabIndex = 34;
             this.btnDocFile.Text = "Đọc File";
             this.btnDocFile.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnDocFile.Click += new System.EventHandler(this.btnDocFile_Click);
+=======
+<<<<<<< HEAD
+            this.btnDocFile.Click += new System.EventHandler(this.btnDocFile_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnGhiFile
             // 
@@ -221,7 +317,14 @@
             this.btnGhiFile.TabIndex = 35;
             this.btnGhiFile.Text = "Ghi File";
             this.btnGhiFile.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnGhiFile.Click += new System.EventHandler(this.btnGhiFile_Click);
+=======
+<<<<<<< HEAD
+            this.btnGhiFile.Click += new System.EventHandler(this.btnGhiFile_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // QuanLyDanhMucThuChi
             // 
@@ -233,12 +336,27 @@
             this.Controls.Add(this.btnSuaDM);
             this.Controls.Add(this.btnXoaDM);
             this.Controls.Add(this.btnThemDM);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.txtMaDanhMuc);
             this.Controls.Add(this.txtTenDanhMuc);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txt);
             this.Controls.Add(this.cboLoai);
+<<<<<<< HEAD
+=======
+=======
+            this.Controls.Add(this.txtMaDM);
+            this.Controls.Add(this.txtTenDM);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.cmbLoaiDM);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.dgvDanhMuc);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
@@ -256,12 +374,27 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dgvDanhMuc;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.ComboBox cboLoai;
         private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox txtTenDanhMuc;
         private System.Windows.Forms.TextBox txtMaDanhMuc;
+<<<<<<< HEAD
+=======
+=======
+        private System.Windows.Forms.ComboBox cmbLoaiDM;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtTenDM;
+        private System.Windows.Forms.TextBox txtMaDM;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.Button btnThemDM;
         private System.Windows.Forms.Button btnXoaDM;
         private System.Windows.Forms.Button btnSuaDM;

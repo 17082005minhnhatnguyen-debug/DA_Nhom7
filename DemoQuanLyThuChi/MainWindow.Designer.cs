@@ -83,7 +83,14 @@
             this.btnTrangChu.TabIndex = 35;
             this.btnTrangChu.Text = "Trang Chủ";
             this.btnTrangChu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnTrangChu.Click += new System.EventHandler(this.btnTrangChu_Click);
+=======
+<<<<<<< HEAD
+            this.btnTrangChu.Click += new System.EventHandler(this.btnTrangChu_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // pictureBox4
             // 

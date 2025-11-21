@@ -7,7 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.IO;
+=======
+<<<<<<< HEAD
+using System.IO;
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 
 namespace DemoQuanLyThuChi
 {
@@ -17,6 +24,10 @@ namespace DemoQuanLyThuChi
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 
         private void btnThemDM_Click(object sender, EventArgs e)
         {
@@ -102,5 +113,10 @@ namespace DemoQuanLyThuChi
             }
 
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
     }
 }

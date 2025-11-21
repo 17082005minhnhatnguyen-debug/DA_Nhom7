@@ -40,10 +40,23 @@
             this.txtMaGD = new System.Windows.Forms.TextBox();
             this.txtNoiDung = new System.Windows.Forms.TextBox();
             this.dtpNgayGD = new System.Windows.Forms.DateTimePicker();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.cboDanhMuc = new System.Windows.Forms.ComboBox();
             this.cboLoaiGD = new System.Windows.Forms.ComboBox();
             this.nudSoTien = new System.Windows.Forms.NumericUpDown();
             this.dgvGiaoDich = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
+=======
+=======
+            this.cmbNhom = new System.Windows.Forms.ComboBox();
+            this.cmbLoaiGD = new System.Windows.Forms.ComboBox();
+            this.nudTien = new System.Windows.Forms.NumericUpDown();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.MaGD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayGD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Loai = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,8 +72,18 @@
             this.btnTongChi = new System.Windows.Forms.Button();
             this.btnSoDu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.nudSoTien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoDich)).BeginInit();
+=======
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoTien)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoDich)).BeginInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.nudTien)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -165,10 +188,23 @@
             this.dtpNgayGD.TabIndex = 27;
             this.dtpNgayGD.ValueChanged += new System.EventHandler(this.dtpNgayGD_ValueChanged);
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // cboDanhMuc
             // 
             this.cboDanhMuc.FormattingEnabled = true;
             this.cboDanhMuc.Items.AddRange(new object[] {
+<<<<<<< HEAD
+=======
+=======
+            // cmbNhom
+            // 
+            this.cmbNhom.FormattingEnabled = true;
+            this.cmbNhom.Items.AddRange(new object[] {
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             "Ăn Uống",
             "Chi Tiêu",
             "Di Chuyển",
@@ -177,6 +213,10 @@
             "Lương",
             "Giải Trí",
             "Vay Mượn"});
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.cboDanhMuc.Location = new System.Drawing.Point(414, 222);
             this.cboDanhMuc.Name = "cboDanhMuc";
             this.cboDanhMuc.Size = new System.Drawing.Size(295, 28);
@@ -205,18 +245,66 @@
             this.dgvGiaoDich.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgvGiaoDich.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGiaoDich.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+<<<<<<< HEAD
+=======
+=======
+            this.cmbNhom.Location = new System.Drawing.Point(414, 222);
+            this.cmbNhom.Name = "cmbNhom";
+            this.cmbNhom.Size = new System.Drawing.Size(295, 28);
+            this.cmbNhom.TabIndex = 28;
+            // 
+            // cmbLoaiGD
+            // 
+            this.cmbLoaiGD.FormattingEnabled = true;
+            this.cmbLoaiGD.Items.AddRange(new object[] {
+            "Thu",
+            "Chi"});
+            this.cmbLoaiGD.Location = new System.Drawing.Point(414, 180);
+            this.cmbLoaiGD.Name = "cmbLoaiGD";
+            this.cmbLoaiGD.Size = new System.Drawing.Size(295, 28);
+            this.cmbLoaiGD.TabIndex = 29;
+            // 
+            // nudTien
+            // 
+            this.nudTien.Location = new System.Drawing.Point(414, 317);
+            this.nudTien.Name = "nudTien";
+            this.nudTien.Size = new System.Drawing.Size(295, 26);
+            this.nudTien.TabIndex = 30;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.MaGD,
             this.NgayGD,
             this.Loai,
             this.DanhMuc,
             this.NoiDung,
             this.SoTien});
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.dgvGiaoDich.Location = new System.Drawing.Point(-3, 375);
             this.dgvGiaoDich.Name = "dgvGiaoDich";
             this.dgvGiaoDich.RowHeadersWidth = 62;
             this.dgvGiaoDich.RowTemplate.Height = 28;
             this.dgvGiaoDich.Size = new System.Drawing.Size(1229, 197);
             this.dgvGiaoDich.TabIndex = 31;
+<<<<<<< HEAD
+=======
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(-3, 375);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(1229, 197);
+            this.dataGridView1.TabIndex = 31;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // MaGD
             // 
@@ -275,7 +363,14 @@
             this.btnThemGD.TabIndex = 30;
             this.btnThemGD.Text = "Thêm";
             this.btnThemGD.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnThemGD.Click += new System.EventHandler(this.btnThemGD_Click);
+=======
+<<<<<<< HEAD
+            this.btnThemGD.Click += new System.EventHandler(this.btnThemGD_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnXoaDM
             // 
@@ -286,7 +381,14 @@
             this.btnXoaDM.TabIndex = 30;
             this.btnXoaDM.Text = "Xóa";
             this.btnXoaDM.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnXoaDM.Click += new System.EventHandler(this.btnXoaDM_Click);
+=======
+<<<<<<< HEAD
+            this.btnXoaDM.Click += new System.EventHandler(this.btnXoaDM_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnSuaDM
             // 
@@ -297,7 +399,14 @@
             this.btnSuaDM.TabIndex = 30;
             this.btnSuaDM.Text = "Sửa";
             this.btnSuaDM.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnSuaDM.Click += new System.EventHandler(this.btnSuaDM_Click);
+=======
+<<<<<<< HEAD
+            this.btnSuaDM.Click += new System.EventHandler(this.btnSuaDM_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnGhiFile
             // 
@@ -308,7 +417,14 @@
             this.btnGhiFile.TabIndex = 32;
             this.btnGhiFile.Text = "Ghi File";
             this.btnGhiFile.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnGhiFile.Click += new System.EventHandler(this.btnGhiFile_Click);
+=======
+<<<<<<< HEAD
+            this.btnGhiFile.Click += new System.EventHandler(this.btnGhiFile_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnDocFile
             // 
@@ -319,7 +435,14 @@
             this.btnDocFile.TabIndex = 33;
             this.btnDocFile.Text = "Đọc File";
             this.btnDocFile.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnDocFile.Click += new System.EventHandler(this.btnDocFile_Click);
+=======
+<<<<<<< HEAD
+            this.btnDocFile.Click += new System.EventHandler(this.btnDocFile_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnTongThu
             // 
@@ -330,7 +453,14 @@
             this.btnTongThu.TabIndex = 34;
             this.btnTongThu.Text = "Tổng Thu";
             this.btnTongThu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnTongThu.Click += new System.EventHandler(this.btnTongThu_Click);
+=======
+<<<<<<< HEAD
+            this.btnTongThu.Click += new System.EventHandler(this.btnTongThu_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnTongChi
             // 
@@ -341,7 +471,14 @@
             this.btnTongChi.TabIndex = 35;
             this.btnTongChi.Text = "Tổng Chi";
             this.btnTongChi.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnTongChi.Click += new System.EventHandler(this.btnTongChi_Click);
+=======
+<<<<<<< HEAD
+            this.btnTongChi.Click += new System.EventHandler(this.btnTongChi_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // btnSoDu
             // 
@@ -352,7 +489,14 @@
             this.btnSoDu.TabIndex = 36;
             this.btnSoDu.Text = "Số Dư";
             this.btnSoDu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnSoDu.Click += new System.EventHandler(this.btnSoDu_Click);
+=======
+<<<<<<< HEAD
+            this.btnSoDu.Click += new System.EventHandler(this.btnSoDu_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             // 
             // QuanLyThuChi
             // 
@@ -367,10 +511,23 @@
             this.Controls.Add(this.btnSuaDM);
             this.Controls.Add(this.btnXoaDM);
             this.Controls.Add(this.btnThemGD);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.dgvGiaoDich);
             this.Controls.Add(this.nudSoTien);
             this.Controls.Add(this.cboLoaiGD);
             this.Controls.Add(this.cboDanhMuc);
+<<<<<<< HEAD
+=======
+=======
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.nudTien);
+            this.Controls.Add(this.cmbLoaiGD);
+            this.Controls.Add(this.cmbNhom);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.Controls.Add(this.dtpNgayGD);
             this.Controls.Add(this.txtNoiDung);
             this.Controls.Add(this.txtMaGD);
@@ -385,8 +542,18 @@
             this.Name = "QuanLyThuChi";
             this.Text = "QuanLyThuChi";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.nudSoTien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoDich)).EndInit();
+=======
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoTien)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoDich)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.nudTien)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,10 +572,23 @@
         private System.Windows.Forms.TextBox txtMaGD;
         private System.Windows.Forms.TextBox txtNoiDung;
         private System.Windows.Forms.DateTimePicker dtpNgayGD;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.ComboBox cboDanhMuc;
         private System.Windows.Forms.ComboBox cboLoaiGD;
         private System.Windows.Forms.NumericUpDown nudSoTien;
         private System.Windows.Forms.DataGridView dgvGiaoDich;
+<<<<<<< HEAD
+=======
+=======
+        private System.Windows.Forms.ComboBox cmbNhom;
+        private System.Windows.Forms.ComboBox cmbLoaiGD;
+        private System.Windows.Forms.NumericUpDown nudTien;
+        private System.Windows.Forms.DataGridView dataGridView1;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
         private System.Windows.Forms.Button btnThemGD;
         private System.Windows.Forms.Button btnXoaDM;
         private System.Windows.Forms.Button btnSuaDM;

@@ -21,6 +21,10 @@ namespace DemoQuanLyThuChi
         {
 
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
 
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
@@ -32,5 +36,10 @@ namespace DemoQuanLyThuChi
             this.Hide();
 
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
+>>>>>>> 6c1d7c4ef02174d5f7abd43df847e177a126e1b4
     }
 }
