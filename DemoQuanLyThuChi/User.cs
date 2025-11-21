@@ -18,7 +18,11 @@ namespace DemoQuanLyThuChi
             this.matKhau = null;
             this.email = null;
         }
+<<<<<<< HEAD
         public User(string tenND, string matKhau,string email)
+=======
+        public User(string tenND, string matKhau)
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
         {
             this.tenND = tenND;
             this.matKhau = matKhau;
@@ -32,7 +36,11 @@ namespace DemoQuanLyThuChi
         public string MatKhau
         {
             get { return this.matKhau; }
+<<<<<<< HEAD
             set { this.matKhau = value; }
+=======
+            set { this.tenND = value; }
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
         }
         public string Email
         {

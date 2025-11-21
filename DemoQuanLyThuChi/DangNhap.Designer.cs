@@ -50,7 +50,11 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+<<<<<<< HEAD
             this.pictureBox1.Location = new System.Drawing.Point(2, -28);
+=======
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -2);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1232, 589);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,11 +99,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(387, 485);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(170, 22);
+=======
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(374, 503);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(150, 20);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             this.label1.TabIndex = 9;
             this.label1.Text = "Chưa có tài khoản ?";
             // 
@@ -108,7 +119,11 @@
             this.btnDangNhap.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnDangNhap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDangNhap.BackgroundImage")));
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnDangNhap.Location = new System.Drawing.Point(391, 390);
+=======
+            this.btnDangNhap.Location = new System.Drawing.Point(378, 412);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(548, 41);
             this.btnDangNhap.TabIndex = 140;
@@ -122,9 +137,15 @@
             this.btnTạoTK.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTạoTK.BackgroundImage")));
             this.btnTạoTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTạoTK.Image = ((System.Drawing.Image)(resources.GetObject("btnTạoTK.Image")));
+<<<<<<< HEAD
             this.btnTạoTK.Location = new System.Drawing.Point(780, 472);
             this.btnTạoTK.Name = "btnTạoTK";
             this.btnTạoTK.Size = new System.Drawing.Size(159, 42);
+=======
+            this.btnTạoTK.Location = new System.Drawing.Point(780, 501);
+            this.btnTạoTK.Name = "btnTạoTK";
+            this.btnTạoTK.Size = new System.Drawing.Size(146, 20);
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             this.btnTạoTK.TabIndex = 141;
             this.btnTạoTK.Text = "Tạo tài khoản";
             this.btnTạoTK.UseVisualStyleBackColor = false;

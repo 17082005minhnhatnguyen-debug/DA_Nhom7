@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "E:\\QuanLyChiTieu - Git\\",
   "Documents": [
     {
@@ -258,6 +259,15 @@
           ]
         }
       ]
+=======
+  "WorkspaceRootPath": "C:\\Users\\UYEN NHI\\Desktop\\DA_Nhom7-master (1) - Copy\\DA_Nhom7-master (1) - Copy\\DA_Nhom7-master\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": []
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
     }
   ]
 }

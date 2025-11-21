@@ -64,7 +64,10 @@
             this.btnTrangChinh.TabIndex = 31;
             this.btnTrangChinh.Text = "Trang Chính";
             this.btnTrangChinh.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnTrangChinh.Click += new System.EventHandler(this.btnTrangChinh_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             // 
             // notifyIcon1
             // 
@@ -105,7 +108,10 @@
             this.btnQLChiTieu.TabIndex = 156;
             this.btnQLChiTieu.Text = "Quản Lý Chi Tiêu";
             this.btnQLChiTieu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnQLChiTieu.Click += new System.EventHandler(this.btnQLChiTieu_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             // 
             // btnQLDanhMuc
             // 
@@ -116,7 +122,10 @@
             this.btnQLDanhMuc.TabIndex = 157;
             this.btnQLDanhMuc.Text = "QL Danh Mục Chi Tiêu";
             this.btnQLDanhMuc.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnQLDanhMuc.Click += new System.EventHandler(this.btnQLDanhMuc_Click);
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
             // 
             // pictureBox2
             // 

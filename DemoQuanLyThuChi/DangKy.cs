@@ -8,7 +8,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.IO;
+=======
+
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
 namespace DemoQuanLyThuChi
 {
     public partial class DangKy: Form
@@ -19,6 +23,7 @@ namespace DemoQuanLyThuChi
         }
         private void btnTạoTK_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             string email = txtEmail.Text.Trim();
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
@@ -46,6 +51,11 @@ namespace DemoQuanLyThuChi
 
         }
                
+=======
+            
+                
+        }
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
@@ -55,6 +65,7 @@ namespace DemoQuanLyThuChi
                 Application.Exit();
             }
         }
+<<<<<<< HEAD
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
@@ -66,5 +77,7 @@ namespace DemoQuanLyThuChi
             this.Hide();
 
         }
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
     }
 }

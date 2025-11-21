@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
 
 namespace DemoQuanLyThuChi
 {
@@ -21,6 +24,7 @@ namespace DemoQuanLyThuChi
         {
 
         }
+<<<<<<< HEAD
 
         private void btnThemGD_Click(object sender, EventArgs e)
         {
@@ -163,5 +167,7 @@ namespace DemoQuanLyThuChi
             MessageBox.Show("Số Dư: " + soDu.ToString("N0") + " VND");
 
         }
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
     }
 }

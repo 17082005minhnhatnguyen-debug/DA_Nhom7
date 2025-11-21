@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using DemoQuanLiChiTieu;
 using System;
+=======
+﻿using System;
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +12,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
 
 namespace DemoQuanLyThuChi
 {
@@ -28,6 +35,7 @@ namespace DemoQuanLyThuChi
         {
 
         }
+<<<<<<< HEAD
 
         private void btnTrangChinh_Click(object sender, EventArgs e)
         {
@@ -53,5 +61,7 @@ namespace DemoQuanLyThuChi
             //this.Hide();
 
         }
+=======
+>>>>>>> 798e8a9f334982c33736b203d52b74438e164729
     }
 }
