@@ -17,7 +17,29 @@ namespace DemoQuanLyThuChi
         {
             InitializeComponent();
         }
-
+        // 1. Tự động đọc file khi mở Form lên
+        private void QuanLyDanhMucThuChi_Load(object sender, EventArgs e)
+        {
+            string filePath = "Categories.csv";
+            if (File.Exists(filePath))
+            {
+                try
+                {
+                    
+                    string[] lines = File.ReadAllLines(filePath, Encoding.UTF8);
+                    dgvDanhMuc.Rows.Clear();
+                    foreach (string line in lines)
+                    {
+                        if (!string.IsNullOrWhiteSpace(line))
+                        {
+                            string[] data = line.Split(',');
+                            if (data.Length >= 2) dgvDanhMuc.Rows.Add(data);
+                        }
+                    }
+                }
+                catch { /* Bỏ qua lỗi nếu file lỗi nhẹ */ }
+            }
+        }
         private void btnThemDM_Click(object sender, EventArgs e)
         {
             // Thêm một dòng mới vào bảng danh mục với dữ liệu từ các ô nhập
@@ -80,27 +102,46 @@ namespace DemoQuanLyThuChi
 
         private void btnGhiFile_Click(object sender, EventArgs e)
         {
-            // Mở hộp thoại lưu file
-            SaveFileDialog sfd = new SaveFileDialog();
-            sfd.Filter = "CSV Files|*.csv";
+            //// Mở hộp thoại lưu file
+            //SaveFileDialog sfd = new SaveFileDialog();
+            //sfd.Filter = "CSV Files|*.csv";
 
-            if (sfd.ShowDialog() == DialogResult.OK)
+            //if (sfd.ShowDialog() == DialogResult.OK)
+            //{
+            //    // Ghi từng dòng dữ liệu từ bảng vào file CSV
+            //    using (StreamWriter sw = new StreamWriter(sfd.FileName))
+            //    {
+            //        foreach (DataGridViewRow row in dgvDanhMuc.Rows)
+            //        {
+            //            if (!row.IsNewRow) // Bỏ qua dòng trống cuối bảng
+            //            {
+            //                // Lấy dữ liệu từng ô và nối bằng dấu phẩy
+            //                string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
+            //                sw.WriteLine(line); // Ghi dòng vào file
+            //            }
+            //        }
+            //    }
+            //}
+            try
             {
-                // Ghi từng dòng dữ liệu từ bảng vào file CSV
-                using (StreamWriter sw = new StreamWriter(sfd.FileName))
+                using (StreamWriter sw = new StreamWriter("Categories.csv", false, Encoding.UTF8))
                 {
                     foreach (DataGridViewRow row in dgvDanhMuc.Rows)
                     {
-                        if (!row.IsNewRow) // Bỏ qua dòng trống cuối bảng
+                        if (!row.IsNewRow)
                         {
-                            // Lấy dữ liệu từng ô và nối bằng dấu phẩy
+                            
                             string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
-                            sw.WriteLine(line); // Ghi dòng vào file
+                            sw.WriteLine(line);
                         }
                     }
                 }
+                MessageBox.Show("Đã lưu danh mục thành công!");
             }
-
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi lưu file: " + ex.Message);
+            }
         }
     }
 }

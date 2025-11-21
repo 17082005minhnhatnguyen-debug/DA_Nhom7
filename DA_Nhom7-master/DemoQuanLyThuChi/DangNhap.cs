@@ -68,13 +68,13 @@ namespace DemoQuanLyThuChi
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin.");
                 return;
             }
-            // Giả sử bạn có hàm kiểm tra tài khoản:
-            if (KiemTraTaiKhoan(username, password))  // Hàm bạn tự viết để check DB hoặc bộ nhớ
+           
+            if (KiemTraTaiKhoan(username, password))  
             {
                 MessageBox.Show("Đăng nhập thành công!");
                 // Mở form chính (MainForm) hoặc form quản lý sau đăng nhập
-                QuanLyThuChi mainForm = new QuanLyThuChi();
-                mainForm.Show();
+                HomeWindow home = new HomeWindow();
+                home.Show();
                 this.Hide();
             }
             else

@@ -17,9 +17,10 @@ namespace DemoQuanLyThuChi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new MainWindow());
+            //Application.Run(new QuanLyThuChi());
             Application.Run(new DangNhap());
-            Application.Run(new QuanLyDanhMucThuChi());
-            Application.Run(new QuanLyThuChi());
+
         }
     }
 }
