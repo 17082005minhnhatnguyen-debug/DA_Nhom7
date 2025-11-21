@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|e:\\da_nhom7-master (1)\\da_nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\danhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\danhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 149,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuanLyDanhMucThuChi.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAawBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:28:33.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\User.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:24:06.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeWindow.Designer.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.Designer.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\HomeWindow.Designer.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.Designer.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\HomeWindow.Designer.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwHYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:07:24.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuanLyThuChi.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAA+wIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T09:51:21.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DanhMucThuChi.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T09:37:07.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\MainWindow.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\MainWindow.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\MainWindow.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\MainWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T07:01:56.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeWindow.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\HomeWindow.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\HomeWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:22:17.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyThuChi.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyThuChi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:17:23.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:42:59.466Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\MainWindow.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\MainWindow.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\MainWindow.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\MainWindow.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAWwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T07:16:04.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangKy.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:43:51.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeWindow.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\HomeWindow.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\HomeWindow.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T06:07:56.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyDanhMucThuChi.cs [Design]",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:17:13.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAWwDcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:47:18.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangKy.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangKy.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:47:15.42Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
