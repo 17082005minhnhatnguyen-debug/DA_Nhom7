@@ -70,11 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
+              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:47:18.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -230,19 +243,6 @@
               "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T05:17:13.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
-              "ToolTip": "E:\\DA_Nhom7-master (1)\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
-              "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAIAywDcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T04:47:18.001Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
