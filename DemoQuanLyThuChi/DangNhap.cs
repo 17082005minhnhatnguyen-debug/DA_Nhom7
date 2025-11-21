@@ -57,13 +57,22 @@ namespace DemoQuanLyThuChi
             {
                 MessageBox.Show("Đăng nhập thành công!");
                 // Mở form chính (MainForm) hoặc form quản lý sau đăng nhập
-                Form1 mainForm = new Form1();
+                QuanLyThuChi mainForm = new QuanLyThuChi();
                 mainForm.Show();
                 this.Hide();
             }
             else
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.");
+            }
+        }
+
+        private void btnTat_Click(object sender, EventArgs e)
+        {
+            DialogResult confirm = MessageBox.Show("Bạn có chắc muốn thoát khỏi ứng dụng", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.Yes)
+            {
+                Application.Exit();
             }
         }
     }

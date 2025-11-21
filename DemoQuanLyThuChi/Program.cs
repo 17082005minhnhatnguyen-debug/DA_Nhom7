@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoQuanLiChiTieu;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,8 +18,8 @@ namespace DemoQuanLyThuChi
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new DangNhap());
-            Application.Run(new DangKy());
-            Application.Run(new Form1());
+            Application.Run(new QuanLyDanhMucThuChi());
+            Application.Run(new QuanLyThuChi());
         }
     }
 }

@@ -2,7 +2,6 @@ D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.exe.c
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.exe
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\bin\Debug\DemoQuanLyThuChi.pdb
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.csproj.AssemblyReference.cache
-D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.Form1.resources
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.Properties.Resources.resources
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.csproj.GenerateResource.cache
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.csproj.CoreCompileInputs.cache
@@ -11,3 +10,7 @@ D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.pdb
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.exe.config
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.DangNhap.resources
 D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.DangKy.resources
+D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.QuanLyDanhMucThuChi.resources
+D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.QuanLyThuChi.resources
+D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.HomeWindow.resources
+D:\DoAnTinHoc\DemoQuanLyThuChi\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.MainWindow.resources

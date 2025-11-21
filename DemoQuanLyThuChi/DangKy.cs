@@ -22,5 +22,14 @@ namespace DemoQuanLyThuChi
             
                 
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult confirm = MessageBox.Show("Bạn có chắc muốn thoát khỏi ứng dụng", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
