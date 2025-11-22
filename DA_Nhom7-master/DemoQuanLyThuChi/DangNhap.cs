@@ -37,7 +37,7 @@ namespace DemoQuanLyThuChi
                 foreach (string line in lines)
                 {
                     string[] parts = line.Split(',');
-                    if (parts.Length == 3 && parts[1] == username && parts[2] == password)
+                    if (parts.Length == 3 && parts[1] == username && parts[2] == password)// 2
                     {
                         return true;
                     }
@@ -68,7 +68,8 @@ namespace DemoQuanLyThuChi
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin.");
                 return;
             }
-           
+            // thêm dòng if để kiểm tra định dạng username và password 
+            // hiển thị messagebox nếu không đúng định dạng
             if (KiemTraTaiKhoan(username, password))  
             {
                 MessageBox.Show("Đăng nhập thành công!");
