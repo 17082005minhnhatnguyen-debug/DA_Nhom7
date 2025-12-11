@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Security.Cryptography;
+
 
 namespace DemoQuanLyThuChi
 {
@@ -23,27 +25,54 @@ namespace DemoQuanLyThuChi
         }
         bool KiemTraTaiKhoan(string username, string password)
         {
-            // Kiểm tra tài khoản mẫu
-            if ((username == "user1" && password == "12345") ||
-                (username == "admin" && password == "admin123"))
+            // Mã hoá mật khẩu người dùng vừa nhập để so sánh
+            string passwordHash = MaHoaMD5(password);
+            // Ví dụ: MD5 của "12345" là "827CCB0EEA8A706C4C34A16891F84E7B"
+            if ((username == "user1" && passwordHash == "MD5_CUA_12345") ||
+                (username == "admin" && passwordHash == "MD5_CUA_ADMIN123"))
             {
                 return true;
             }
 
             // Kiểm tra tài khoản từ file
-            if (File.Exists("users.txt"))
+            //if (File.Exists("users.txt"))
+            //{
+            //    string[] lines = File.ReadAllLines("users.txt");
+            //    foreach (string line in lines)
+            //    {
+            //        string[] parts = line.Split(',');
+            //        // parts[0]: email, parts[1]: username, parts[2]: passwordHash
+            //        // So sánh passwordHash (đã mã hoá) với parts[2] (đã lưu trong file)
+            //        if (parts.Length == 3 && parts[0] == username && parts[2] == passwordHash)
+            //        {
+            //            return true;
+            //        }
+            //    }
+            //}
+            string filePath = Path.Combine(Application.StartupPath, "users.txt");
+
+            if (File.Exists(filePath)) 
             {
-                string[] lines = File.ReadAllLines("users.txt");
+                string[] lines = File.ReadAllLines(filePath); // Dùng biến filePath
                 foreach (string line in lines)
                 {
                     string[] parts = line.Split(',');
-                    if (parts.Length == 3 && parts[1] == username && parts[2] == password)
+
+                    
+
+                    if (parts.Length >= 3)
                     {
-                        return true;
+                        // Giả sử đăng nhập bằng Email (index 0)
+                        bool checkUser = parts[0].Equals(username, StringComparison.OrdinalIgnoreCase);
+
+
+                        if (checkUser && parts[2] == passwordHash)
+                        {
+                            return true;
+                        }
                     }
                 }
             }
-
             return false;
         }
         private void btnTạoTK_Click(object sender, EventArgs e)
@@ -68,13 +97,15 @@ namespace DemoQuanLyThuChi
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin.");
                 return;
             }
-            // Giả sử bạn có hàm kiểm tra tài khoản:
-            if (KiemTraTaiKhoan(username, password))  // Hàm bạn tự viết để check DB hoặc bộ nhớ
+           
+            if (KiemTraTaiKhoan(username, password))  
             {
                 MessageBox.Show("Đăng nhập thành công!");
                 // Mở form chính (MainForm) hoặc form quản lý sau đăng nhập
-                QuanLyThuChi mainForm = new QuanLyThuChi();
-                mainForm.Show();
+                HomeWindow home = new HomeWindow();
+                // Khi form Home đóng, thì đóng luôn form Đăng nhập (để thoát app hoàn toàn)
+                home.FormClosed += (s, args) => this.Close();
+                home.Show();
                 this.Hide();
             }
             else
@@ -90,6 +121,19 @@ namespace DemoQuanLyThuChi
             {
                 Application.Exit();
             }
+        }
+        // Hàm mã hoá
+        public string MaHoaMD5(string str)
+        {
+            MD5 md5 = MD5.Create();
+            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(str);
+            byte[] hashBytes = md5.ComputeHash(inputBytes);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < hashBytes.Length; i++)
+            {
+                sb.Append(hashBytes[i].ToString("X2"));
+            }
+            return sb.ToString();
         }
     }
 }
