@@ -13,7 +13,6 @@ namespace DemoQuanLiChiTieu
     internal class DanhMucThuChi
     {
         private List<DanhMuc> ds;
-
         public DanhMucThuChi()
         {
             this.ds = new List<DanhMuc>();
@@ -95,4 +94,3 @@ namespace DemoQuanLiChiTieu
 
     }
 }
-

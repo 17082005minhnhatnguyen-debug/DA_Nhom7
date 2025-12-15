@@ -34,7 +34,7 @@ namespace DemoQuanLyThuChi
             // 3. Đường dẫn đầy đủ
             string filePath = Path.Combine(folderPath, tenFileRieng);
 
-            // -- Logic kiểm tra file  --
+            //  kiểm tra file 
             bool chuaCoDuLieu = !File.Exists(filePath);
             if (!chuaCoDuLieu)
             {
@@ -56,7 +56,7 @@ namespace DemoQuanLyThuChi
                     // Chuyển hướng sang trang tạo danh mục
                     btnQLDanhMuc_Click(sender, e);
                 }
-                // Dừng lại, không mở form Thu Chi
+                
                 return;
             }
 

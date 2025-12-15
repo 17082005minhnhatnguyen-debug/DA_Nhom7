@@ -1,86 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\",
+  "WorkspaceRootPath": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|e:\\\u0111\u1ED3 \u00E1n tin h\u1ECDc nh\u00F3m 7\\da_nhom7-master\\da_nhom7-master\\da_nhom7-master\\demoquanlythuchi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlythuchi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DemoQuanLyThuChi\\GiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DemoQuanLyThuChi\\DanhMucGiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\danhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlydanhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\danhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\danhmucthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\quanlythuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\homewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|e:\\\u0111\u1ED3 \u00E1n tin h\u1ECDc nh\u00F3m 7\\da_nhom7 (ch\u00EDnh)\\da_nhom7\\da_nhom7-master\\demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DemoQuanLyThuChi\\GiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DemoQuanLyThuChi\\DanhMucGiaoDich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58317BA9-69AF-4C59-AE77-5688C6A78E60}|DemoQuanLyThuChi\\DemoQuanLyThuChi.csproj|solutionrelative:demoquanlythuchi\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,74 +82,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
-              "ToolTip": "D:\\DoAnTinHoc\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs [Design]",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T04:42:59.466Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "HomeWindow.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\HomeWindow.cs",
-              "ToolTip": "D:\\DoAnTinHoc\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs [Design]",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\HomeWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T05:22:17.17Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "HomeWindow.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\HomeWindow.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\HomeWindow.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\HomeWindow.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T06:07:56.75Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyThuChi.cs [Design]",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs [Design]",
+              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyThuChi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:17:23.528Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "QuanLyThuChi.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
-              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
-              "ToolTip": "D:\\DoAnTinHoc\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T05:17:23.528Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "QuanLyThuChi.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyThuChi.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgBAAAAAAAAAAAqwCYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T09:51:21.855Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "QuanLyDanhMucThuChi.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
               "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T05:17:13.616Z",
@@ -166,26 +166,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "DanhMucThuChi.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DanhMucThuChi.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucThuChi.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\DanhMucThuChi.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwvw0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T09:37:07.971Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "QuanLyDanhMucThuChi.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwIMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T10:28:33.023Z",
               "IsPinned": true,
@@ -193,13 +194,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "DangKy.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangKy.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\DangKy.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwDoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswKAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T04:47:15.42Z",
               "IsPinned": true,
@@ -207,52 +208,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "DangNhap.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangNhap.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangNhap.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\DangNhap.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowGoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAowHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T04:47:18.001Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "DanhMucGiaoDich.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\DanhMucGiaoDich.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T17:43:14.826Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "GiaoDich.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\GiaoDich.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\GiaoDich.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\GiaoDich.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T17:43:51.469Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\Program.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\Program.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\Program.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\Program.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\Program.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T17:44:04.789Z",
               "IsPinned": true,
@@ -260,37 +264,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 13,
               "Title": "User.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\User.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\User.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T10:24:06.865Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "DanhMuc.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMuc.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMuc.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DanhMuc.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMuc.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DanhMuc.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\DanhMuc.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T17:43:13.581Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\DangKy.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs [Design]",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\DangKy.cs [Design]",
               "RelativeToolTip": "DemoQuanLyThuChi\\DangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T04:43:51.147Z",
@@ -311,53 +317,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "WelcomeForm.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\WelcomeForm.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
               "RelativeToolTip": "DemoQuanLyThuChi\\WelcomeForm.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T15:30:20.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "WelcomeForm.cs [Design]",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
+              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs",
               "RelativeDocumentMoniker": "DemoQuanLyThuChi\\WelcomeForm.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs [Design]",
+              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7 (Ch\u00EDnh)\\DA_Nhom7\\DA_Nhom7-master\\DemoQuanLyThuChi\\WelcomeForm.cs [Design]",
               "RelativeToolTip": "DemoQuanLyThuChi\\WelcomeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T15:20:32.076Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuanLyThuChi.Designer.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.Designer.cs",
-              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyThuChi.Designer.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyThuChi.Designer.cs",
-              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyThuChi.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:44:31.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "QuanLyDanhMucThuChi.Designer.cs",
-              "DocumentMoniker": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.Designer.cs",
-              "RelativeDocumentMoniker": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.Designer.cs",
-              "ToolTip": "E:\\\u0110\u1ED3 \u00C1n Tin H\u1ECDc Nh\u00F3m 7\\DA_Nhom7-master\\DA_Nhom7-master\\DA_Nhom7-master\\DemoQuanLyThuChi\\QuanLyDanhMucThuChi.Designer.cs",
-              "RelativeToolTip": "DemoQuanLyThuChi\\QuanLyDanhMucThuChi.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T07:54:26.176Z",
-              "EditorCaption": ""
             }
           ]
         }

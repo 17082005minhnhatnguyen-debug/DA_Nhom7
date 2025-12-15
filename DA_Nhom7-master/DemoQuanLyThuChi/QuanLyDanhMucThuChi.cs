@@ -36,26 +36,7 @@ namespace DemoQuanLyThuChi
             // Kết hợp thư mục và tên file
             this.duongDanFileRieng = Path.Combine(folderPath, "DanhMuc_" + username + ".csv");
         }
-        // 1. Tự động đọc file khi mở Form lên
-        //private void CapNhatMaTuDong()
-        //{
-        //    int maxId = 0;
-        //    // Duyệt qua danh sách hiện tại trong DataGridView để tìm số lớn nhất
-        //    foreach (DataGridViewRow row in dgvDanhMuc.Rows)
-        //    {
-        //        if (row.IsNewRow) continue; // Bỏ qua dòng trống cuối cùng
-        //        if (row.Cells[0].Value != null)
-        //        {
-        //            // Giả sử mã có dạng số (001, 002), ta ép kiểu về int
-        //            if (int.TryParse(row.Cells[0].Value.ToString(), out int id))
-        //            {
-        //                if (id > maxId) maxId = id;
-        //            }
-        //        }
-        //    }
-        //    // Tăng lên 1 đơn vị và định dạng thành chuỗi 3 số (ví dụ: 001)
-        //    txtMaDanhMuc.Text = (maxId + 1).ToString("D3");
-        //}
+       
         private void QuanLyDanhMucThuChi_Load(object sender, EventArgs e)
         {
             //string filePath = Path.Combine(Application.StartupPath, this.tenFileRieng);
@@ -78,7 +59,7 @@ namespace DemoQuanLyThuChi
                 catch { /* Bỏ qua lỗi nếu file lỗi nhẹ */ }
             }
             txtMaDanhMuc.Enabled = false; // Không cho người dùng tự nhập mã
-            //CapNhatMaTuDong(); // Tự động điền mã tiếp theo (ví dụ 001)
+           
         }
         private bool KiemTraTrungMa(string maCheck)
         {
@@ -163,7 +144,6 @@ namespace DemoQuanLyThuChi
             TuDongLuuFile();
 
         }
-
         private void TuDongLuuFile()
         {
             try
@@ -181,7 +161,7 @@ namespace DemoQuanLyThuChi
                         }
                     }
                 }
-                // Không cần hiện MessageBox thông báo để tránh phiền khi thao tác liên tục
+                
             }
             catch (Exception ex)
             {
