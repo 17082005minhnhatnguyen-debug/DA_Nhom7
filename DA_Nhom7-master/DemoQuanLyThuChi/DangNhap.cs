@@ -101,17 +101,26 @@ namespace DemoQuanLyThuChi
             if (KiemTraTaiKhoan(username, password))  
             {
                 MessageBox.Show("Đăng nhập thành công!");
-                // Mở form chính (MainForm) hoặc form quản lý sau đăng nhập
-                HomeWindow home = new HomeWindow();
-                // Khi form Home đóng, thì đóng luôn form Đăng nhập (để thoát app hoàn toàn)
-                home.FormClosed += (s, args) => this.Close();
-                home.Show();
+
+                HomeWindow home = new HomeWindow(username);
+
+                // 1. Ẩn form đăng nhập đi
                 this.Hide();
+
+                // 2. Mở HomeWindow và "treo" code tại đây chờ cho đến khi HomeWindow đóng lại
+                home.ShowDialog();
+
+                // 3. Khi HomeWindow đóng (do bấm Đăng xuất hoặc tắt), dòng này sẽ chạy để hiện lại form Đăng nhập
+                this.Show();
+
+                // (Tùy chọn) Xóa mật khẩu để người dùng nhập lại cho an toàn
+                txtMatKhau.Text = "";
             }
             else
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.");
             }
+
         }
 
         private void btnTat_Click(object sender, EventArgs e)

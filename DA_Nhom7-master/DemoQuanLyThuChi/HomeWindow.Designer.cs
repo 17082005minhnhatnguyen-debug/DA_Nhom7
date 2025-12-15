@@ -31,17 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeWindow));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnTrangChinh = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnQLChiTieu = new System.Windows.Forms.Button();
             this.btnQLDanhMuc = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnDangXuat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -56,18 +53,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnTrangChinh
-            // 
-            this.btnTrangChinh.Image = ((System.Drawing.Image)(resources.GetObject("btnTrangChinh.Image")));
-            this.btnTrangChinh.Location = new System.Drawing.Point(433, 110);
-            this.btnTrangChinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnTrangChinh.Name = "btnTrangChinh";
-            this.btnTrangChinh.Size = new System.Drawing.Size(294, 51);
-            this.btnTrangChinh.TabIndex = 31;
-            this.btnTrangChinh.Text = "Trang Chính";
-            this.btnTrangChinh.UseVisualStyleBackColor = true;
-            this.btnTrangChinh.Click += new System.EventHandler(this.btnTrangChinh_Click);
             // 
             // notifyIcon1
             // 
@@ -88,28 +73,16 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1093, 52);
             this.textBox1.TabIndex = 33;
-            this.textBox1.Text = "Chào Mừng Đến Với Trang Chủ";
+            this.textBox1.Text = "TRANG CHỦ";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(443, 101);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 155;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // btnQLChiTieu
             // 
             this.btnQLChiTieu.Image = ((System.Drawing.Image)(resources.GetObject("btnQLChiTieu.Image")));
-            this.btnQLChiTieu.Location = new System.Drawing.Point(433, 213);
+            this.btnQLChiTieu.Location = new System.Drawing.Point(413, 157);
             this.btnQLChiTieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQLChiTieu.Name = "btnQLChiTieu";
-            this.btnQLChiTieu.Size = new System.Drawing.Size(294, 49);
+            this.btnQLChiTieu.Size = new System.Drawing.Size(284, 40);
             this.btnQLChiTieu.TabIndex = 156;
             this.btnQLChiTieu.Text = "Quản Lý Chi Tiêu";
             this.btnQLChiTieu.UseVisualStyleBackColor = true;
@@ -118,19 +91,19 @@
             // btnQLDanhMuc
             // 
             this.btnQLDanhMuc.Image = ((System.Drawing.Image)(resources.GetObject("btnQLDanhMuc.Image")));
-            this.btnQLDanhMuc.Location = new System.Drawing.Point(433, 322);
+            this.btnQLDanhMuc.Location = new System.Drawing.Point(413, 291);
             this.btnQLDanhMuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQLDanhMuc.Name = "btnQLDanhMuc";
-            this.btnQLDanhMuc.Size = new System.Drawing.Size(294, 49);
+            this.btnQLDanhMuc.Size = new System.Drawing.Size(284, 40);
             this.btnQLDanhMuc.TabIndex = 157;
-            this.btnQLDanhMuc.Text = "QL Danh Mục Chi Tiêu";
+            this.btnQLDanhMuc.Text = "Quản Lý Danh Mục Chi Tiêu";
             this.btnQLDanhMuc.UseVisualStyleBackColor = true;
             this.btnQLDanhMuc.Click += new System.EventHandler(this.btnQLDanhMuc_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(443, 205);
+            this.pictureBox2.Location = new System.Drawing.Point(413, 157);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(44, 40);
@@ -141,7 +114,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(443, 313);
+            this.pictureBox3.Location = new System.Drawing.Point(413, 291);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 40);
@@ -166,21 +139,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1092, 467);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnQLDanhMuc);
             this.Controls.Add(this.btnQLChiTieu);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btnTrangChinh);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeWindow";
             this.Text = "Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
@@ -191,10 +162,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnTrangChinh;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnQLChiTieu;
         private System.Windows.Forms.Button btnQLDanhMuc;
         private System.Windows.Forms.PictureBox pictureBox2;

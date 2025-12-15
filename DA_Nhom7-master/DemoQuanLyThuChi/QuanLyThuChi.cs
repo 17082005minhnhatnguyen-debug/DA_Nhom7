@@ -20,14 +20,29 @@ namespace DemoQuanLyThuChi
             public string Loai { get; set; } // "Thu" hoặc "Chi"
         }
         List<DanhMucItem> listDanhMuc = new List<DanhMucItem>();
-        public QuanLyThuChi()
+        private string duongDanFileGiaoDich; // Biến lưu đường dẫn file Giao Dịch
+        private string duongDanFileDanhMuc;  // Biến lưu đường dẫn file Danh Mục để nạp vào combobox
+
+        public QuanLyThuChi(string username)
         {
             InitializeComponent();
-        }
-        private void dtpNgayGD_ValueChanged(object sender, EventArgs e)
-        {
+            nudSoTien.Maximum = decimal.MaxValue;   
+            // TẠO THƯ MỤC "DuLieu" (Tương tự bên trên)
+            string folderPath = Path.Combine(Application.StartupPath, "DuLieu");
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
 
+           
+            // File Giao dịch: GiaoDich_admin.csv
+            this.duongDanFileGiaoDich = Path.Combine(folderPath, "GiaoDich_" + username + ".csv");
+
+            // File Danh mục (để load vào combobox): DanhMuc_admin.csv
+            
+            this.duongDanFileDanhMuc = Path.Combine(folderPath, "DanhMuc_" + username + ".csv");
         }
+      
 
         private void btnThemGD_Click(object sender, EventArgs e)
         {
@@ -45,9 +60,15 @@ namespace DemoQuanLyThuChi
             dgvGiaoDich.Rows[rowIndex].Cells["DanhMuc"].Value = cboDanhMuc.Text;
             dgvGiaoDich.Rows[rowIndex].Cells["NoiDung"].Value = txtNoiDung.Text;
             dgvGiaoDich.Rows[rowIndex].Cells["SoTien"].Value = nudSoTien.Value;
-
+            if (nudSoTien.Value <= 100)
+            {
+                MessageBox.Show("Số tiền phải lớn hơn 100 đồng!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             // Hiển thị mã vừa tạo lên ô text để người dùng thấy
             txtMaGD.Text = maTuDong;
+            nudSoTien.Value = 0;
+            TuDongLuuGiaoDich();
         }
 
         private void btnXoaDM_Click(object sender, EventArgs e)
@@ -60,13 +81,17 @@ namespace DemoQuanLyThuChi
 
                 dgvGiaoDich.Rows.RemoveAt(dgvGiaoDich.SelectedRows[0].Index);
             }
-
+            TuDongLuuGiaoDich();
         }
 
         private void btnSuaDM_Click(object sender, EventArgs e)
         {
             // Kiểm tra có dòng nào đang được chọn không
-
+            if (nudSoTien.Value <= 100)
+            {
+                MessageBox.Show("Số tiền phải lớn hơn 100 đồng!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             if (dgvGiaoDich.SelectedRows.Count > 0)
             {
                 // Gán lại giá trị mới từ các ô nhập liệu vào dòng được chọn
@@ -79,56 +104,9 @@ namespace DemoQuanLyThuChi
                 row.Cells["NoiDung"].Value = txtNoiDung.Text;
                 row.Cells["SoTien"].Value = nudSoTien.Value;
             }
-
+            TuDongLuuGiaoDich();
         }
 
-        private void btnDocFile_Click(object sender, EventArgs e)
-        {
-            // Mở hộp thoại chọn file CSV
-
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "CSV Files|*.csv";
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                // Đọc toàn bộ dòng từ file
-
-                string[] lines = File.ReadAllLines(ofd.FileName);
-                dgvGiaoDich.Rows.Clear();
-                // Thêm từng dòng vào bảng
-
-                foreach (string line in lines)
-                {
-                    string[] data = line.Split(',');
-                    dgvGiaoDich.Rows.Add(data);
-                }
-            }
-
-        }
-
-        private void btnGhiFile_Click(object sender, EventArgs e)
-        {
-            // Mở hộp thoại lưu file
-
-            SaveFileDialog sfd = new SaveFileDialog();
-            sfd.Filter = "CSV Files|*.csv";
-            if (sfd.ShowDialog() == DialogResult.OK)
-            {
-                // Ghi từng dòng dữ liệu từ bảng vào file CSV
-
-                using (StreamWriter sw = new StreamWriter(sfd.FileName))
-                {
-                    foreach (DataGridViewRow row in dgvGiaoDich.Rows)
-                    {
-                        if (!row.IsNewRow)
-                        {
-                            string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
-                            sw.WriteLine(line);
-                        }
-                    }
-                }
-            }
-
-        }
 
         private void btnTongThu_Click(object sender, EventArgs e)
         {
@@ -190,27 +168,24 @@ namespace DemoQuanLyThuChi
 
         private void QuanLyThuChi_Load(object sender, EventArgs e)
         {
-            string filePath = Path.Combine(Application.StartupPath, "Categories.csv");
+            string filePath = Path.Combine(Application.StartupPath, this.duongDanFileDanhMuc);
 
             // Kiểm tra xem file có tồn tại không trước khi đọc
-            if (File.Exists(filePath))
+            if (File.Exists(this.duongDanFileDanhMuc))
             {
                 try
                 {
-                    // Đọc file với bảng mã UTF8 để không lỗi font tiếng Việt
-                    var lines = File.ReadAllLines(filePath, Encoding.UTF8);
+                    // Đọc file với bảng mã UTF8
+                    var lines = File.ReadAllLines(this.duongDanFileDanhMuc, Encoding.UTF8);
 
-                    listDanhMuc.Clear(); // Xóa sạch list cũ để tránh bị nhân đôi dữ liệu
+                    listDanhMuc.Clear(); // Xóa sạch list cũ
 
                     foreach (string line in lines)
                     {
                         if (string.IsNullOrWhiteSpace(line)) continue;
 
                         string[] parts = line.Split(',');
-                        // Cấu trúc file CSV là: Mã, Tên, Loại
-                        // parts[0] = Mã
-                        // parts[1] = Tên danh mục
-                        // parts[2] = Loại (Thu/Chi)
+                        // Cấu trúc file: Mã, Tên, Loại
                         if (parts.Length >= 3)
                         {
                             listDanhMuc.Add(new DanhMucItem()
@@ -226,16 +201,68 @@ namespace DemoQuanLyThuChi
                     MessageBox.Show("Lỗi khi đọc file danh mục: " + ex.Message);
                 }
             }
-
-            // Mặc định chọn loại "Thu" (hoặc cái đầu tiên) để kích hoạt sự kiện lọc ngay khi mở form
-            if (cboLoaiGD.Items.Count > 0)
+            // Kiểm tra xem file giao dịch của user này đã tồn tại chưa
+            if (File.Exists(this.duongDanFileGiaoDich))
             {
-                cboLoaiGD.SelectedIndex = 0;
-               
-            }
-        
-         }
+                try
+                {
+                    // Đọc toàn bộ các dòng trong file CSV
+                    string[] lines = File.ReadAllLines(this.duongDanFileGiaoDich);
 
+                    // Xóa trắng bảng hiện tại để tránh bị trùng lặp
+                    dgvGiaoDich.Rows.Clear();
+
+                    // Duyệt qua từng dòng và thêm vào bảng
+                    foreach (string line in lines)
+                    {
+                        if (!string.IsNullOrWhiteSpace(line)) // Bỏ qua dòng trống
+                        {
+                            string[] data = line.Split(','); // Tách dữ liệu bằng dấu phẩy
+
+                            // Kiểm tra nếu dòng dữ liệu có đủ cột (ví dụ bảng có 6 cột)
+                            if (data.Length >= 6)
+                            {
+                                dgvGiaoDich.Rows.Add(data);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi đọc file giao dịch: " + ex.Message);
+                }
+            }
+
+            //// Mặc định chọn loại "Thu" (hoặc cái đầu tiên) để kích hoạt sự kiện lọc ngay khi mở form
+            //if (cboLoaiGD.Items.Count > 0)
+            //{
+            //    cboLoaiGD.SelectedIndex = 0;
+
+            //}
+
+        }
+        private void TuDongLuuGiaoDich()
+        {
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(this.duongDanFileGiaoDich, false)) // false để ghi đè mới nhất
+                {
+                    foreach (DataGridViewRow row in dgvGiaoDich.Rows)
+                    {
+                        if (!row.IsNewRow)
+                        {
+                            // Ghép chuỗi các cột
+                            string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
+                            sw.WriteLine(line);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi lưu giao dịch: " + ex.Message);
+            }
+        }
         private void cboLoaiGD_SelectedIndexChanged(object sender, EventArgs e)
         {
             // 1. Lấy giá trị Thu hoặc Chi đang chọn

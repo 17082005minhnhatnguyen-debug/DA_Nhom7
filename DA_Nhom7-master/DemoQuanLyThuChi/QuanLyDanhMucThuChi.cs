@@ -13,20 +13,58 @@ namespace DemoQuanLyThuChi
 {
     public partial class QuanLyDanhMucThuChi : Form
     {
-        public QuanLyDanhMucThuChi()
+        //private string tenFileRieng; // Biến lưu tên file: "Categories_admin.csv"
+        private string duongDanFileRieng;
+        public QuanLyDanhMucThuChi(string username)
         {
             InitializeComponent();
+            cboLoai.DropDownStyle = ComboBoxStyle.DropDownList;
+            txtMaDanhMuc.ReadOnly = true;
+
+            // Đổi màu nền để người dùng biết là ô này tự động
+            txtMaDanhMuc.BackColor = System.Drawing.Color.LightGray;
+            // 1. Tạo đường dẫn tới thư mục "DuLieu"
+            string folderPath = Path.Combine(Application.StartupPath, "DuLieu");
+
+            // 2. Nếu thư mục chưa có thì tạo mới (Đáp ứng yêu cầu tạo thư mục)
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+
+            // 3.DanhMuc_TenUser.csv
+            // Kết hợp thư mục và tên file
+            this.duongDanFileRieng = Path.Combine(folderPath, "DanhMuc_" + username + ".csv");
         }
         // 1. Tự động đọc file khi mở Form lên
+        //private void CapNhatMaTuDong()
+        //{
+        //    int maxId = 0;
+        //    // Duyệt qua danh sách hiện tại trong DataGridView để tìm số lớn nhất
+        //    foreach (DataGridViewRow row in dgvDanhMuc.Rows)
+        //    {
+        //        if (row.IsNewRow) continue; // Bỏ qua dòng trống cuối cùng
+        //        if (row.Cells[0].Value != null)
+        //        {
+        //            // Giả sử mã có dạng số (001, 002), ta ép kiểu về int
+        //            if (int.TryParse(row.Cells[0].Value.ToString(), out int id))
+        //            {
+        //                if (id > maxId) maxId = id;
+        //            }
+        //        }
+        //    }
+        //    // Tăng lên 1 đơn vị và định dạng thành chuỗi 3 số (ví dụ: 001)
+        //    txtMaDanhMuc.Text = (maxId + 1).ToString("D3");
+        //}
         private void QuanLyDanhMucThuChi_Load(object sender, EventArgs e)
         {
-            string filePath = "Categories.csv";
-            if (File.Exists(filePath))
+            //string filePath = Path.Combine(Application.StartupPath, this.tenFileRieng);
+            if (File.Exists(this.duongDanFileRieng))
             {
                 try
                 {
                     
-                    string[] lines = File.ReadAllLines(filePath, Encoding.UTF8);
+                    string[] lines = File.ReadAllLines(this.duongDanFileRieng, Encoding.UTF8);
                     dgvDanhMuc.Rows.Clear();
                     foreach (string line in lines)
                     {
@@ -39,6 +77,8 @@ namespace DemoQuanLyThuChi
                 }
                 catch { /* Bỏ qua lỗi nếu file lỗi nhẹ */ }
             }
+            txtMaDanhMuc.Enabled = false; // Không cho người dùng tự nhập mã
+            //CapNhatMaTuDong(); // Tự động điền mã tiếp theo (ví dụ 001)
         }
         private bool KiemTraTrungMa(string maCheck)
         {
@@ -63,36 +103,37 @@ namespace DemoQuanLyThuChi
         }
         private void btnThemDM_Click(object sender, EventArgs e)
         {
-            string maMoi = txtMaDanhMuc.Text.Trim();
-            string tenMoi = txtTenDanhMuc.Text.Trim();
-
-            // 1. Kiểm tra rỗng
-            if (string.IsNullOrEmpty(maMoi) || string.IsNullOrEmpty(tenMoi))
-            {
-                MessageBox.Show("Vui lòng nhập mã và tên danh mục!", "Thiếu thông tin");
-                return;
-            }
-
-            // 2. Kiểm tra trùng mã
-            if (KiemTraTrungMa(maMoi))
-            {
-                MessageBox.Show($"Mã danh mục '{maMoi}' đã tồn tại. Vui lòng chọn mã khác.", "Trùng lặp", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            // 3. Nếu hợp lệ thì thêm vào bảng
-            dgvDanhMuc.Rows.Add(
-                maMoi,
-                tenMoi,
-                cboLoai.Text
-            );
-
-            // (Tuỳ chọn) Xoá ô nhập sau khi thêm
-            txtMaDanhMuc.Clear();
-            txtTenDanhMuc.Clear();
-            txtMaDanhMuc.Focus();
             
+            string tenMoi = txtTenDanhMuc.Text.Trim();
+            
+            // 1. Kiểm tra rỗng
+            if (string.IsNullOrEmpty(tenMoi))
+            {
+                MessageBox.Show("Vui lòng nhập tên danh mục!", "Thiếu thông tin");
+                return;
+            }
 
+            // Sinh chuỗi ngẫu nhiên, lấy 8 ký tự, in hoa -> Ví dụ: "1A2B3C4D"
+            string maNgauNhien = Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper();
+            string maDayDu = "DM" + maNgauNhien; // Kết quả: DM1A2B3C4D
 
+            // (Tùy chọn) Đề phòng trường hợp cực hiếm hoi bị trùng mã thì sinh lại
+           
+            while (KiemTraTrungMa(maDayDu))
+            {
+                maNgauNhien = Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper();
+                maDayDu = "DM" + maNgauNhien;
+            }
+
+            // 4. Thêm dòng mới vào bảng (dùng mã vừa tạo)
+            dgvDanhMuc.Rows.Add(maDayDu, tenMoi,cboLoai.Text);
+
+            // 5. Lưu dữ liệu xuống file
+            TuDongLuuFile();
+
+            // 6. Dọn dẹp ô nhập liệu để nhập tiếp
+            txtTenDanhMuc.Clear();
+            txtTenDanhMuc.Focus();
         }
 
         private void btnXoaDM_Click(object sender, EventArgs e)
@@ -103,7 +144,8 @@ namespace DemoQuanLyThuChi
                 // Xóa dòng được chọn khỏi bảng
                 dgvDanhMuc.Rows.RemoveAt(dgvDanhMuc.SelectedRows[0].Index);
             }
-
+            // Tự động lưu file sau khi xóa
+            TuDongLuuFile();
         }
 
         private void btnSuaDM_Click(object sender, EventArgs e)
@@ -117,73 +159,49 @@ namespace DemoQuanLyThuChi
                 row.Cells[1].Value = txtTenDanhMuc.Text;    // Tên danh mục
                 row.Cells[2].Value = cboLoai.Text;          // Loại
             }
+            // Tự động lưu file sau khi sửa
+            TuDongLuuFile();
 
         }
 
-        private void btnDocFile_Click(object sender, EventArgs e)
+        private void TuDongLuuFile()
         {
-            // Mở hộp thoại chọn file CSV
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "CSV Files|*.csv";
-
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                // Đọc toàn bộ dòng từ file
-                string[] lines = File.ReadAllLines(ofd.FileName);
-                dgvDanhMuc.Rows.Clear(); // Xóa dữ liệu cũ
-
-                // Thêm từng dòng vào bảng
-                foreach (string line in lines)
-                {
-                    string[] data = line.Split(','); // Tách dữ liệu theo dấu phẩy
-                    dgvDanhMuc.Rows.Add(data);       // Thêm dòng vào bảng
-                }
-            }
-
-
-        }
-
-        private void btnGhiFile_Click(object sender, EventArgs e)
-        {
-            //// Mở hộp thoại lưu file
-            //SaveFileDialog sfd = new SaveFileDialog();
-            //sfd.Filter = "CSV Files|*.csv";
-
-            //if (sfd.ShowDialog() == DialogResult.OK)
-            //{
-            //    // Ghi từng dòng dữ liệu từ bảng vào file CSV
-            //    using (StreamWriter sw = new StreamWriter(sfd.FileName))
-            //    {
-            //        foreach (DataGridViewRow row in dgvDanhMuc.Rows)
-            //        {
-            //            if (!row.IsNewRow) // Bỏ qua dòng trống cuối bảng
-            //            {
-            //                // Lấy dữ liệu từng ô và nối bằng dấu phẩy
-            //                string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
-            //                sw.WriteLine(line); // Ghi dòng vào file
-            //            }
-            //        }
-            //    }
-            //}
             try
             {
-                using (StreamWriter sw = new StreamWriter("Categories.csv", false, Encoding.UTF8))
+                // Ghi đè (false) vào đường dẫn file đã định sẵn
+                using (StreamWriter sw = new StreamWriter(this.duongDanFileRieng, false, Encoding.UTF8))
                 {
                     foreach (DataGridViewRow row in dgvDanhMuc.Rows)
                     {
                         if (!row.IsNewRow)
                         {
-                            
+                            // Lấy dữ liệu các ô
                             string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(c => c.Value?.ToString()));
                             sw.WriteLine(line);
                         }
                     }
                 }
-                MessageBox.Show("Đã lưu danh mục thành công!");
+                // Không cần hiện MessageBox thông báo để tránh phiền khi thao tác liên tục
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi lưu file: " + ex.Message);
+                MessageBox.Show("Lỗi lưu dữ liệu tự động: " + ex.Message);
+            }
+        }
+        private void txtMaDanhMuc_Click(object sender, EventArgs e)
+        {
+            // Chỉ tạo mã mới nếu ô mã danh mục đang trống
+            if (string.IsNullOrEmpty(txtMaDanhMuc.Text.Trim()))
+            {
+                // 1. Tạo GUID (là chuỗi duy nhất trên toàn cầu)
+                Guid newGuid = Guid.NewGuid();
+
+                // 2. Rút gọn mã: Lấy 8 ký tự đầu tiên của GUID
+                // Ví dụ: 2c19e7a8-1234-5678-abcd-ef0123456789 -> 2C19E7A8
+                string shortCode = newGuid.ToString("N").Substring(0, 8).ToUpper();
+
+                // 3. Đặt mã đã rút gọn vào ô nhập liệu
+                txtMaDanhMuc.Text = "DM" + shortCode;
             }
         }
     }

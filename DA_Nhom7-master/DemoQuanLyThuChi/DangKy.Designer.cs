@@ -43,7 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnThoat = new System.Windows.Forms.Button();
+            this.cBPass = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -82,6 +82,7 @@
             this.txtPassword.Location = new System.Drawing.Point(491, 282);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(336, 26);
             this.txtPassword.TabIndex = 7;
             // 
@@ -150,9 +151,9 @@
             this.btnDangNhap.Location = new System.Drawing.Point(728, 386);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(112, 27);
+            this.btnDangNhap.Size = new System.Drawing.Size(135, 43);
             this.btnDangNhap.TabIndex = 144;
-            this.btnDangNhap.Text = "Đăng Nhập";
+            this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
@@ -197,33 +198,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(343, 308);
+            this.label3.Location = new System.Drawing.Point(347, 308);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 16);
             this.label3.TabIndex = 152;
             this.label3.Text = "Mật Khẩu";
             // 
-            // btnThoat
+            // cBPass
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.Red;
-            this.btnThoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThoat.BackgroundImage")));
-            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.ForeColor = System.Drawing.Color.Red;
-            this.btnThoat.Location = new System.Drawing.Point(0, 0);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(67, 26);
-            this.btnThoat.TabIndex = 153;
-            this.btnThoat.Text = "X";
-            this.btnThoat.UseVisualStyleBackColor = false;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.cBPass.AutoSize = true;
+            this.cBPass.Location = new System.Drawing.Point(833, 286);
+            this.cBPass.Name = "cBPass";
+            this.cBPass.Size = new System.Drawing.Size(114, 20);
+            this.cBPass.TabIndex = 153;
+            this.cBPass.Text = "Hiện mật khẩu";
+            this.cBPass.UseVisualStyleBackColor = true;
+            this.cBPass.CheckedChanged += new System.EventHandler(this.cBPass_CheckedChanged);
             // 
             // DangKy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1092, 467);
-            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.cBPass);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -266,6 +264,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.CheckBox cBPass;
     }
 }

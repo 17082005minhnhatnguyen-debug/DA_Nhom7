@@ -15,40 +15,37 @@ namespace DemoQuanLyThuChi
 {
     public partial class HomeWindow : Form
     {
-        public HomeWindow()
+        //Thêm biến để lưu tên người dùng hiện tại
+        private string tenDangNhap;
+        public HomeWindow(string username)
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnTrangChinh_Click(object sender, EventArgs e)
-        {
-            // Mở lại form chính hoặc làm mới giao diện
-            MessageBox.Show("Bạn đang ở Trang Chính!");
-
+            this.tenDangNhap = username; // Lưu lại để dùng sau
         }
 
         private void btnQLChiTieu_Click(object sender, EventArgs e)
         {
-            // Mở form Quản Lý Thu Chi
-            QuanLyThuChi frmQLChiTieu = new QuanLyThuChi();
-            
-            string fileDanhMuc = "Categories.csv"; // Quy định tên file danh mục cố định
+            // Tạo tên file dựa theo tên người dùng: Ví dụ "Categories_admin.csv"
+            string folderPath = Path.Combine(Application.StartupPath, "DuLieu");
 
-            //  Nếu file chưa tồn tại HOẶC file không có dòng nào
-            if (!File.Exists(fileDanhMuc) || File.ReadAllLines(fileDanhMuc).Length == 0)
+            // 2. Sửa tên file thành "DanhMuc_..." thay vì "Categories_..."
+            string tenFileRieng = "DanhMuc_" + tenDangNhap + ".csv";
+
+            // 3. Đường dẫn đầy đủ
+            string filePath = Path.Combine(folderPath, tenFileRieng);
+
+            // -- Logic kiểm tra file  --
+            bool chuaCoDuLieu = !File.Exists(filePath);
+            if (!chuaCoDuLieu)
+            {
+                // Kiểm tra nếu file rỗng
+                if (File.ReadAllLines(filePath).All(string.IsNullOrWhiteSpace)) chuaCoDuLieu = true;
+            }
+
+            if (chuaCoDuLieu)
             {
                 DialogResult result = MessageBox.Show(
-                    "Bạn chưa có danh mục thu/chi nào (hoặc chưa tạo file dữ liệu).\n" +
+                    "Bạn chưa có danh mục thu/chi nào.\n" +
                     "Bạn có muốn tạo danh mục ngay bây giờ không?",
                     "Cảnh báo thiếu dữ liệu",
                     MessageBoxButtons.YesNo,
@@ -56,28 +53,30 @@ namespace DemoQuanLyThuChi
 
                 if (result == DialogResult.Yes)
                 {
-                    // Nếu bấm Yes -> Chuyển hướng sang trang tạo danh mục
+                    // Chuyển hướng sang trang tạo danh mục
                     btnQLDanhMuc_Click(sender, e);
                 }
-                // Nếu bấm No -> Thì thôi, đứng yên tại chỗ, không mở trang Thu Chi để tránh lỗi
+                // Dừng lại, không mở form Thu Chi
                 return;
-                
             }
+
+            // Nếu đã có dữ liệu thì mới mở form
+            QuanLyThuChi frmQLChiTieu = new QuanLyThuChi(tenDangNhap);
             frmQLChiTieu.ShowDialog();
         }
 
         private void btnQLDanhMuc_Click(object sender, EventArgs e)
         {
-            // Mở form Danh Mục Thu Chi
-            QuanLyDanhMucThuChi frmDanhMuc = new QuanLyDanhMucThuChi();
+            // Truyền username sang QuanLyDanhMucThuChi
+            QuanLyDanhMucThuChi frmDanhMuc = new QuanLyDanhMucThuChi(tenDangNhap);
             frmDanhMuc.ShowDialog();
-            
+
 
         }
         private void btnDangXuat_Click(object sender, EventArgs e) 
         {
-            DangNhap frmLogin = new DangNhap();
-            frmLogin.Show();
+            //DangNhap frmLogin = new DangNhap();
+            //frmLogin.Show();
             this.Close();
         }
     }

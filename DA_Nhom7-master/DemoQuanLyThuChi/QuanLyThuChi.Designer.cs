@@ -53,8 +53,6 @@
             this.btnThemGD = new System.Windows.Forms.Button();
             this.btnXoaDM = new System.Windows.Forms.Button();
             this.btnSuaDM = new System.Windows.Forms.Button();
-            this.btnGhiFile = new System.Windows.Forms.Button();
-            this.btnDocFile = new System.Windows.Forms.Button();
             this.btnTongThu = new System.Windows.Forms.Button();
             this.btnTongChi = new System.Windows.Forms.Button();
             this.btnSoDu = new System.Windows.Forms.Button();
@@ -65,6 +63,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-3, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -76,8 +77,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.Enabled = false;
@@ -177,7 +177,6 @@
             this.dtpNgayGD.Name = "dtpNgayGD";
             this.dtpNgayGD.Size = new System.Drawing.Size(263, 22);
             this.dtpNgayGD.TabIndex = 27;
-            this.dtpNgayGD.ValueChanged += new System.EventHandler(this.dtpNgayGD_ValueChanged);
             // 
             // cboDanhMuc
             // 
@@ -214,12 +213,20 @@
             // 
             this.nudSoTien.Location = new System.Drawing.Point(368, 254);
             this.nudSoTien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nudSoTien.Maximum = new decimal(new int[] {
+            1316134911,
+            2328,
+            0,
+            0});
             this.nudSoTien.Name = "nudSoTien";
             this.nudSoTien.Size = new System.Drawing.Size(262, 22);
             this.nudSoTien.TabIndex = 30;
             // 
             // dgvGiaoDich
             // 
+            this.dgvGiaoDich.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvGiaoDich.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgvGiaoDich.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGiaoDich.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -288,8 +295,9 @@
             // 
             // btnThemGD
             // 
+            this.btnThemGD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnThemGD.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThemGD.BackgroundImage")));
-            this.btnThemGD.Location = new System.Drawing.Point(767, 66);
+            this.btnThemGD.Location = new System.Drawing.Point(770, 103);
             this.btnThemGD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThemGD.Name = "btnThemGD";
             this.btnThemGD.Size = new System.Drawing.Size(67, 27);
@@ -300,8 +308,9 @@
             // 
             // btnXoaDM
             // 
+            this.btnXoaDM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnXoaDM.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoaDM.BackgroundImage")));
-            this.btnXoaDM.Location = new System.Drawing.Point(767, 111);
+            this.btnXoaDM.Location = new System.Drawing.Point(770, 158);
             this.btnXoaDM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoaDM.Name = "btnXoaDM";
             this.btnXoaDM.Size = new System.Drawing.Size(67, 26);
@@ -312,8 +321,9 @@
             // 
             // btnSuaDM
             // 
+            this.btnSuaDM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSuaDM.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSuaDM.BackgroundImage")));
-            this.btnSuaDM.Location = new System.Drawing.Point(767, 156);
+            this.btnSuaDM.Location = new System.Drawing.Point(770, 210);
             this.btnSuaDM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSuaDM.Name = "btnSuaDM";
             this.btnSuaDM.Size = new System.Drawing.Size(67, 30);
@@ -322,32 +332,9 @@
             this.btnSuaDM.UseVisualStyleBackColor = true;
             this.btnSuaDM.Click += new System.EventHandler(this.btnSuaDM_Click);
             // 
-            // btnGhiFile
-            // 
-            this.btnGhiFile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGhiFile.BackgroundImage")));
-            this.btnGhiFile.Location = new System.Drawing.Point(767, 246);
-            this.btnGhiFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnGhiFile.Name = "btnGhiFile";
-            this.btnGhiFile.Size = new System.Drawing.Size(67, 27);
-            this.btnGhiFile.TabIndex = 32;
-            this.btnGhiFile.Text = "Lưu";
-            this.btnGhiFile.UseVisualStyleBackColor = true;
-            this.btnGhiFile.Click += new System.EventHandler(this.btnGhiFile_Click);
-            // 
-            // btnDocFile
-            // 
-            this.btnDocFile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDocFile.BackgroundImage")));
-            this.btnDocFile.Location = new System.Drawing.Point(767, 202);
-            this.btnDocFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnDocFile.Name = "btnDocFile";
-            this.btnDocFile.Size = new System.Drawing.Size(67, 28);
-            this.btnDocFile.TabIndex = 33;
-            this.btnDocFile.Text = "Đọc File";
-            this.btnDocFile.UseVisualStyleBackColor = true;
-            this.btnDocFile.Click += new System.EventHandler(this.btnDocFile_Click);
-            // 
             // btnTongThu
             // 
+            this.btnTongThu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTongThu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTongThu.BackgroundImage")));
             this.btnTongThu.Location = new System.Drawing.Point(885, 106);
             this.btnTongThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -360,6 +347,7 @@
             // 
             // btnTongChi
             // 
+            this.btnTongChi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTongChi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTongChi.BackgroundImage")));
             this.btnTongChi.Location = new System.Drawing.Point(885, 156);
             this.btnTongChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -372,6 +360,7 @@
             // 
             // btnSoDu
             // 
+            this.btnSoDu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSoDu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSoDu.BackgroundImage")));
             this.btnSoDu.Location = new System.Drawing.Point(885, 210);
             this.btnSoDu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -390,8 +379,6 @@
             this.Controls.Add(this.btnSoDu);
             this.Controls.Add(this.btnTongChi);
             this.Controls.Add(this.btnTongThu);
-            this.Controls.Add(this.btnDocFile);
-            this.Controls.Add(this.btnGhiFile);
             this.Controls.Add(this.btnSuaDM);
             this.Controls.Add(this.btnXoaDM);
             this.Controls.Add(this.btnThemGD);
@@ -442,8 +429,6 @@
         private System.Windows.Forms.Button btnThemGD;
         private System.Windows.Forms.Button btnXoaDM;
         private System.Windows.Forms.Button btnSuaDM;
-        private System.Windows.Forms.Button btnGhiFile;
-        private System.Windows.Forms.Button btnDocFile;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaGD;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayGD;
         private System.Windows.Forms.DataGridViewTextBoxColumn Loai;

@@ -12,7 +12,7 @@ using System.IO;
 using System.Security.Cryptography;
 namespace DemoQuanLyThuChi
 {
-    public partial class DangKy: Form
+    public partial class DangKy : Form
     {
         public DangKy()
         {
@@ -46,22 +46,22 @@ namespace DemoQuanLyThuChi
                 // parts[0] là Email, parts[1] là Username
                 if (parts.Length >= 2)
                 {
-                  
+
                     if (parts[0].Trim().Equals(checkEmail, StringComparison.OrdinalIgnoreCase))
                     {
                         MessageBox.Show("Email này đã được sử dụng!", "Trùng lặp", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return true;
                     }
-                    //if (parts[1].Trim().Equals(checkUsername, StringComparison.OrdinalIgnoreCase))
-                    //{
-                    //    MessageBox.Show("Tên đăng nhập này đã tồn tại!", "Trùng lặp", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    //    return true;
-                    //}
+                    if (parts[1].Trim().Equals(checkUsername, StringComparison.OrdinalIgnoreCase))
+                    {
+                        MessageBox.Show("Tên đăng nhập này đã tồn tại!", "Trùng lặp", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return true;
+                    }
                 }
             }
-            return false; 
+            return false;
         }
- 
+
         private void btnTạoTK_Click(object sender, EventArgs e)
         {
             string email = txtEmail.Text.Trim();
@@ -102,7 +102,7 @@ namespace DemoQuanLyThuChi
                 return;
             }
 
-            
+
 
             // 2. Kiểm tra dấu phẩy (Để tránh lỗi file CSV/TXT)
             if (email.Contains(",") || username.Contains(",") || password.Contains(","))
@@ -134,7 +134,7 @@ namespace DemoQuanLyThuChi
 
             try
             {
-              
+
                 string passwordHash = MaHoaMD5(password);
                 string line = $"{email},{username},{passwordHash}";
 
@@ -193,6 +193,24 @@ namespace DemoQuanLyThuChi
                 sb.Append(hashBytes[i].ToString("X2"));
             }
             return sb.ToString();
+        }
+
+        private void cBPass_CheckedChanged(object sender, EventArgs e)
+        {
+            bool isChecked = cBPass.Checked;
+
+            if (isChecked)
+            {
+                // Nếu CheckBox được chọn (true) => Hiện mật khẩu
+                // Đặt ký tự ẩn về ký tự null (char rỗng) để hiện nội dung
+                txtPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                // Nếu CheckBox không được chọn (false) => Ẩn mật khẩu
+                // Đặt ký tự ẩn về '*'
+                txtPassword.PasswordChar = '*';
+            }
         }
     }
 }
