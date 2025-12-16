@@ -11,7 +11,6 @@ using System.IO;
 
 namespace DemoQuanLyThuChi
 {
-
     public partial class QuanLyThuChi : Form
     {
         public class DanhMucItem
@@ -26,15 +25,17 @@ namespace DemoQuanLyThuChi
         public QuanLyThuChi(string username)
         {
             InitializeComponent();
+            // 1. Chặn người dùng nhập tay
+            txtMaGD.ReadOnly = true;
+            // 2. Đổi màu nền sang màu xám nhạt để báo hiệu là mã tự động
+            txtMaGD.BackColor = System.Drawing.Color.LightGray;
             nudSoTien.Maximum = decimal.MaxValue;   
-            // TẠO THƯ MỤC "DuLieu" (Tương tự bên trên)
+            // TẠO THƯ MỤC "DuLieu" 
             string folderPath = Path.Combine(Application.StartupPath, "DuLieu");
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath);
-            }
-
-           
+            }          
             // File Giao dịch: GiaoDich_admin.csv
             this.duongDanFileGiaoDich = Path.Combine(folderPath, "GiaoDich_" + username + ".csv");
 
@@ -46,6 +47,12 @@ namespace DemoQuanLyThuChi
 
         private void btnThemGD_Click(object sender, EventArgs e)
         {
+            // Kiểm tra số tiền phải lớn hơn 100 đồng
+            if (nudSoTien.Value <= 100)
+            {
+                MessageBox.Show("Số tiền phải lớn hơn 100 đồng!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             // 1. Tạo mã tự động: "GD" + NămThángNgàyGiờPhútGiây
             // Ví dụ kết quả: GD20231208093015
             string maTuDong = "GD" + DateTime.Now.ToString("yyyyMMddHHmmss");
@@ -60,11 +67,7 @@ namespace DemoQuanLyThuChi
             dgvGiaoDich.Rows[rowIndex].Cells["DanhMuc"].Value = cboDanhMuc.Text;
             dgvGiaoDich.Rows[rowIndex].Cells["NoiDung"].Value = txtNoiDung.Text;
             dgvGiaoDich.Rows[rowIndex].Cells["SoTien"].Value = nudSoTien.Value;
-            if (nudSoTien.Value <= 100)
-            {
-                MessageBox.Show("Số tiền phải lớn hơn 100 đồng!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; 
-            }
+           
             // Hiển thị mã vừa tạo lên ô text để người dùng thấy
             txtMaGD.Text = maTuDong;
             nudSoTien.Value = 0;
@@ -231,21 +234,13 @@ namespace DemoQuanLyThuChi
                 {
                     MessageBox.Show("Lỗi khi đọc file giao dịch: " + ex.Message);
                 }
-            }
-
-            //// Mặc định chọn loại "Thu" (hoặc cái đầu tiên) để kích hoạt sự kiện lọc ngay khi mở form
-            //if (cboLoaiGD.Items.Count > 0)
-            //{
-            //    cboLoaiGD.SelectedIndex = 0;
-
-            //}
-
+            }        
         }
         private void TuDongLuuGiaoDich()
         {
             try
             {
-                using (StreamWriter sw = new StreamWriter(this.duongDanFileGiaoDich, false)) // false để ghi đè mới nhất
+                using (StreamWriter sw = new StreamWriter(this.duongDanFileGiaoDich, false, Encoding.UTF8)) // false để ghi đè mới nhất
                 {
                     foreach (DataGridViewRow row in dgvGiaoDich.Rows)
                     {

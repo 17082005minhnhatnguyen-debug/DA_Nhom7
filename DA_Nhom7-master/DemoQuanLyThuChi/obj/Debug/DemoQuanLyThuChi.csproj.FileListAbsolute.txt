@@ -108,3 +108,4 @@ D:\DoAnTinHoc\DA_Nhom7-master\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQua
 D:\DoAnTinHoc\DA_Nhom7-master\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.pdb
 D:\DoAnTinHoc\DA_Nhom7-master\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.WelcomeForm.resources
 E:\Đồ Án Tin Học Nhóm 7\DA_Nhom7-master\DA_Nhom7-master\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.WelcomeForm.resources
+E:\Đồ Án Tin Học Nhóm 7\DA_Nhom7 (Chính)\DA_Nhom7\DA_Nhom7-master\DemoQuanLyThuChi\obj\Debug\DemoQuanLyThuChi.WelcomeForm.resources

@@ -21,12 +21,21 @@ namespace DemoQuanLyThuChi
         // Hàm kiểm tra xem Email hoặc Username đã có trong file users.txt
         private bool KiemTraTonTai(string checkEmail, string checkUsername)
         {
+            //if (!File.Exists("users.txt"))
+            //{
+            //    return false; 
+            //}
+
+            //// Đọc toàn bộ các dòng trong file
+            //string[] lines = File.ReadAllLines("users.txt");
             string filePath = Path.Combine(Application.StartupPath, "users.txt");
+
             // Thay thế "users.txt" bằng biến filePath
             if (!File.Exists(filePath))
             {
                 return false;
             }
+
             // Thay thế "users.txt" bằng biến filePath
             string[] lines = File.ReadAllLines(filePath);
 
@@ -52,11 +61,14 @@ namespace DemoQuanLyThuChi
             }
             return false;
         }
+
         private void btnTạoTK_Click(object sender, EventArgs e)
         {
             string email = txtEmail.Text.Trim();
+
             string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text;
+            string password = txtPassword.Text; // Không Trim() mật khẩu ngay nếu muốn kiểm tra chính xác input người dùng
+
             // 1. Kiểm tra dữ liệu rỗng
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
@@ -68,12 +80,15 @@ namespace DemoQuanLyThuChi
                 MessageBox.Show("Mật khẩu phải có ít nhất 6 ký tự!", "Mật khẩu quá ngắn", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
+
             // Kiểm tra dấu cách (khoảng trắng)
             if (password.Contains(" "))
             {
                 MessageBox.Show("Mật khẩu không được chứa khoảng trắng (dấu cách)!", "Quy định mật khẩu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
             // Kiểm tra: Có ít nhất 1 chữ cái, 1 số và 1 ký tự đặc biệt
             // Sử dụng LINQ để kiểm tra từng ký tự trong chuỗi
             bool coChuCai = password.Any(char.IsLetter);          // Kiểm tra có a-z hoặc A-Z
@@ -86,6 +101,9 @@ namespace DemoQuanLyThuChi
                                 "Mật khẩu yếu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
+
+
             // 2. Kiểm tra dấu phẩy (Để tránh lỗi file CSV/TXT)
             if (email.Contains(",") || username.Contains(",") || password.Contains(","))
             {
@@ -107,21 +125,31 @@ namespace DemoQuanLyThuChi
                                 "Lỗi định dạng", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
             // 4. Kiểm tra trùng lặp 
             if (KiemTraTonTai(email, username))
             {
                 return;
             }
+
             try
             {
 
                 string passwordHash = MaHoaMD5(password);
-                string line = $"{email},{username},{passwordHash}";              
+                string line = $"{email},{username},{passwordHash}";
+
+
+                //string line = $"{email},{username},{password}";
+
+                //File.AppendAllText("users.txt", line + Environment.NewLine);
                 // Tạo đường dẫn tuyệt đối
                 string filePath = Path.Combine(Application.StartupPath, "users.txt");
+
                 // Lưu vào đường dẫn đó
                 File.AppendAllText(filePath, line + Environment.NewLine);
+
                 MessageBox.Show("Tạo tài khoản thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 txtEmail.Clear();
                 txtUsername.Clear();
                 txtPassword.Clear();
@@ -131,6 +159,8 @@ namespace DemoQuanLyThuChi
                 MessageBox.Show("Lỗi khi lưu tài khoản: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult confirm = MessageBox.Show("Bạn có chắc muốn thoát khỏi ứng dụng", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -139,9 +169,12 @@ namespace DemoQuanLyThuChi
                 Application.Exit();
             }
         }
+
         private void btnDangNhap_Click(object sender, EventArgs e)
-        {          
+        {
+            
             this.Close();
+
         }
         // Hàm mã hoá
         public string MaHoaMD5(string str)
@@ -156,9 +189,11 @@ namespace DemoQuanLyThuChi
             }
             return sb.ToString();
         }
+
         private void cBPass_CheckedChanged(object sender, EventArgs e)
         {
             bool isChecked = cBPass.Checked;
+
             if (isChecked)
             {
                 // Nếu CheckBox được chọn (true) => Hiện mật khẩu

@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using System.IO;
 using System.Security.Cryptography;
 
-
 namespace DemoQuanLyThuChi
 {
     public partial class DangNhap : Form
@@ -19,6 +18,7 @@ namespace DemoQuanLyThuChi
         {
             InitializeComponent();
         }
+
         private void txtMauKhau_TextChanged(object sender, EventArgs e)
         {
         }
@@ -31,18 +31,24 @@ namespace DemoQuanLyThuChi
                 (username == "admin" && passwordHash == "MD5_CUA_ADMIN123"))
             {
                 return true;
-            }           
+            }         
             string filePath = Path.Combine(Application.StartupPath, "users.txt");
+
             if (File.Exists(filePath)) 
             {
                 string[] lines = File.ReadAllLines(filePath); // Dùng biến filePath
                 foreach (string line in lines)
                 {
-                    string[] parts = line.Split(',');                   
+                    string[] parts = line.Split(',');
+
+                    
+
                     if (parts.Length >= 3)
                     {
                         // Giả sử đăng nhập bằng Email (index 0)
                         bool checkUser = parts[0].Equals(username, StringComparison.OrdinalIgnoreCase);
+
+
                         if (checkUser && parts[2] == passwordHash)
                         {
                             return true;
@@ -63,6 +69,7 @@ namespace DemoQuanLyThuChi
             // Khi đóng form đăng ký, hiện lại form đăng nhập
             this.Show();
         }
+
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             string username = txtTen.Text.Trim();
@@ -72,18 +79,23 @@ namespace DemoQuanLyThuChi
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin.");
                 return;
-            }         
+            }
+           
             if (KiemTraTaiKhoan(username, password))  
             {
                 MessageBox.Show("Đăng nhập thành công!");
 
                 HomeWindow home = new HomeWindow(username);
+
                 // 1. Ẩn form đăng nhập đi
                 this.Hide();
+
                 // 2. Mở HomeWindow và "treo" code tại đây chờ cho đến khi HomeWindow đóng lại
                 home.ShowDialog();
+
                 // 3. Khi HomeWindow đóng (do bấm Đăng xuất hoặc tắt), dòng này sẽ chạy để hiện lại form Đăng nhập
                 this.Show();
+
                 // (Tùy chọn) Xóa mật khẩu để người dùng nhập lại cho an toàn
                 txtMatKhau.Text = "";
             }

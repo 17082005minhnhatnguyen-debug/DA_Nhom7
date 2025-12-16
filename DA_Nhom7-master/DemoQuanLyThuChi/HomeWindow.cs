@@ -1,5 +1,4 @@
-﻿using DemoQuanLiChiTieu;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,7 +33,7 @@ namespace DemoQuanLyThuChi
             // 3. Đường dẫn đầy đủ
             string filePath = Path.Combine(folderPath, tenFileRieng);
 
-            //  kiểm tra file 
+            // -- Logic kiểm tra file  --
             bool chuaCoDuLieu = !File.Exists(filePath);
             if (!chuaCoDuLieu)
             {
@@ -56,27 +55,21 @@ namespace DemoQuanLyThuChi
                     // Chuyển hướng sang trang tạo danh mục
                     btnQLDanhMuc_Click(sender, e);
                 }
-                
+                // Dừng lại, không mở form Thu Chi
                 return;
             }
-
             // Nếu đã có dữ liệu thì mới mở form
             QuanLyThuChi frmQLChiTieu = new QuanLyThuChi(tenDangNhap);
             frmQLChiTieu.ShowDialog();
         }
-
         private void btnQLDanhMuc_Click(object sender, EventArgs e)
         {
             // Truyền username sang QuanLyDanhMucThuChi
             QuanLyDanhMucThuChi frmDanhMuc = new QuanLyDanhMucThuChi(tenDangNhap);
             frmDanhMuc.ShowDialog();
-
-
         }
         private void btnDangXuat_Click(object sender, EventArgs e) 
-        {
-            //DangNhap frmLogin = new DangNhap();
-            //frmLogin.Show();
+        {            
             this.Close();
         }
     }

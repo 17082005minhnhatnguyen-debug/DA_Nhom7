@@ -36,7 +36,7 @@ namespace DemoQuanLyThuChi
             // Kết hợp thư mục và tên file
             this.duongDanFileRieng = Path.Combine(folderPath, "DanhMuc_" + username + ".csv");
         }
-       
+        
         private void QuanLyDanhMucThuChi_Load(object sender, EventArgs e)
         {
             //string filePath = Path.Combine(Application.StartupPath, this.tenFileRieng);
@@ -58,8 +58,7 @@ namespace DemoQuanLyThuChi
                 }
                 catch { /* Bỏ qua lỗi nếu file lỗi nhẹ */ }
             }
-            txtMaDanhMuc.Enabled = false; // Không cho người dùng tự nhập mã
-           
+            txtMaDanhMuc.Enabled = false; // Không cho người dùng tự nhập mã         
         }
         private bool KiemTraTrungMa(string maCheck)
         {
@@ -97,9 +96,7 @@ namespace DemoQuanLyThuChi
             // Sinh chuỗi ngẫu nhiên, lấy 8 ký tự, in hoa -> Ví dụ: "1A2B3C4D"
             string maNgauNhien = Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper();
             string maDayDu = "DM" + maNgauNhien; // Kết quả: DM1A2B3C4D
-
-            // (Tùy chọn) Đề phòng trường hợp cực hiếm hoi bị trùng mã thì sinh lại
-           
+            // (Tùy chọn) Đề phòng trường hợp cực hiếm hoi bị trùng mã thì sinh lại   
             while (KiemTraTrungMa(maDayDu))
             {
                 maNgauNhien = Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper();
@@ -116,7 +113,6 @@ namespace DemoQuanLyThuChi
             txtTenDanhMuc.Clear();
             txtTenDanhMuc.Focus();
         }
-
         private void btnXoaDM_Click(object sender, EventArgs e)
         {
             // Kiểm tra có dòng nào đang được chọn không
@@ -128,7 +124,6 @@ namespace DemoQuanLyThuChi
             // Tự động lưu file sau khi xóa
             TuDongLuuFile();
         }
-
         private void btnSuaDM_Click(object sender, EventArgs e)
         {
             // Kiểm tra có dòng nào đang được chọn không
@@ -160,8 +155,7 @@ namespace DemoQuanLyThuChi
                             sw.WriteLine(line);
                         }
                     }
-                }
-                
+                }           
             }
             catch (Exception ex)
             {
@@ -183,6 +177,28 @@ namespace DemoQuanLyThuChi
                 // 3. Đặt mã đã rút gọn vào ô nhập liệu
                 txtMaDanhMuc.Text = "DM" + shortCode;
             }
+        }
+        private void btnDone_Click(object sender, EventArgs e)
+        {
+            bool coDuLieu = false;
+
+            foreach (DataGridViewRow row in dgvDanhMuc.Rows)
+            {
+                // IsNewRow là dòng trống cuối cùng (nếu Grid cho phép thêm dòng), ta không tính dòng đó
+                if (!row.IsNewRow)
+                {
+                    coDuLieu = true;
+                    break; 
+                }
+            }
+            // 2. Nếu chưa có dữ liệu thì báo lỗi
+            if (!coDuLieu)
+            {
+                MessageBox.Show("Chưa có danh mục, vui lòng tạo danh mục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // Dừng lại, không đóng form
+            }
+            // 3. Nếu đã có dữ liệu thì đóng form
+            this.Close();
         }
     }
 }
